@@ -1,0 +1,216 @@
+.nav{margin-bottom: 0;}
+.oracle_banner img{display: none}
+.oracle_banner_a{height: 663px;background: transparent url("../img/python_banner.png") no-repeat scroll center top;}
+.python_select{background-color: #f7f7f7;padding-bottom: 70px;}
+.python_select h2{font-size: 30px;text-align: center;padding: 30px 0;font-weight: bold;color: #ff5c5c}
+.python_select .title{font-size: 20px;font-weight: bold;text-align: center;width: 1200px;height: 85px;color: #ff5c5c;border-radius: 20px;background-color: #ffcc44;line-height: 85px;margin: 0 auto 65px;}
+.python_select .container{width: 1200px;padding: 0;}
+.python_select .container .item{width: 100%;border-top-left-radius: 15px;border-top-right-radius: 15px;overflow: hidden;padding: 45px 0 30px;}
+.python_select .container .item h3{font-size: 20px;font-weight: bold;text-align: center;color: #fff;line-height: 40px;}
+.python_select .container .item .small_h3{font-size: 16px;font-weight: bold;color: #fff;text-align: center;}
+.python_select .container  .con{color: #666666;font-size: 14px;padding:14px;min-height: 200px;background-color: #fff;border-bottom-left-radius: 15px;border-bottom-right-radius: 15px;line-height: 22px;}
+.python_select .container .col-md-3:nth-child(1) .item{background-color: #209be9}
+.python_select .container .col-md-3:nth-child(2) .item{background-color: #3edc72}
+.python_select .container .col-md-3:nth-child(3) .item{background-color: #1787e6}
+.python_select .container .col-md-3:nth-child(4) .item{background-color: #04d67b}
+.cisco_king{background-color: #ff5c5c;padding-bottom: 50px;}
+.cisco_king h2{font-size: 30px;color: #fff444;text-align: center;font-weight: bold;padding-top: 40px;}
+.cisco_king .title{font-size: 20px;color: #fff;text-align: center;line-height: 60px;}
+.cisco_king .container{width: 1200px;padding: 0;margin: 15px auto 0;}
+.cisco_king .container .col-md-4 .item{background: transparent url("../img/cisco_king_img01.png") no-repeat scroll top center;min-height: 400px;font-size: 15px;color: #333333}
+.cisco_king .container .col-md-4:last-child .item{background: transparent url("../img/cisco_king_img02.png") no-repeat scroll top center;}
+.cisco_king .container .col-md-4 h3{font-size: 18px;color: #000;text-align: center;padding-top: 80px;}
+.cisco_king .container .col-md-4 .list_1{width: 275px;margin:25px auto 0;line-height: 23px;}
+.cisco_king .container .col-md-4 .list_1 span{color: #ff4444;position: relative}
+.cisco_king .container .col-md-4 .list_1 span:before{display: inline-block;border-top: 1px dashed #dadada;width: 150px;content: "";height: 6px;margin: 0 5px;}
+.cisco_king .container .col-md-4 .user{text-indent: 30px;margin-top: 20px;}
+.cisco_king .container .col-md-4 .con{padding: 30px;line-height: 28px;}
+.cisco_king .container .col-md-4 .company{text-align: right;padding: 0 20px;}
+.cisco_king .container .col-md-4 .job{margin-top: 200px;display: inline-block;width: 100%}
+.cisco_king .container .col-md-4 .job span{display: inline-block;width: 37%;text-align: center;float: left;text-indent: 15px;}
+.cisco_king .container .col-md-4 .job span:last-child{width: 26%;text-indent: 0}
+.cisco_king .btm{text-align: center;padding: 30px 0 0;}
+.cisco_king .btm a{width: 400px;font-size: 18px;font-weight: bold;line-height: 60px;border-radius: 12px;background-color: #ffc944;color: #ff5c5c;display: inline-block}
+.web_education_wapper{background-color: #f5f7f9}
+.web_education{width: 1200px;padding: 0 0 50px;}
+.web_education h1{font-size: 30px;color: #333333;text-align: center;padding-top: 50px;font-weight: bold;padding-bottom: 20px;}
+.web_education h1 span{color: #19dbc7}
+.web_education .small_h{font-size: 18px;color: #666666;text-align: center;line-height: 28px;padding: 0 36px;}
+.web_education .small_h1{font-size: 18px;color: #333;text-align: center;line-height: 28px;padding: 10px 36px;font-weight: bold}
+.web_education table{width: 1200px;border-collapse:collapse;display: none;background-color: #fff;}
+.web_education table tr th{font-size: 18px;color: #fff;background-color: #19dbc7;text-align: center;line-height: 40px;font-weight: normal}
+.web_education table tr th.lesson{width: 200px;}
+.web_education table tr th.lesson_once{width: 1000px;}
+.web_education table tr span.hh,.java_education table tr span.explain{display: inline-block;width: 100%;text-align: center}
+.web_education table tr td{padding: 25px 10px;border: 4px solid #f8f8f8}
+.web_education table tr td.java_more{border-right: 0;text-align: center}
+.web_education table tr td.java_more a{color: #2178e2;}
+.web_education table tr td.td1{border-left: 0;}
+.web_education table tr:last-child td{border-bottom: 0;}
+.web_education .con{margin-left: -2%;margin-bottom: 55px;margin-top: 50px;}
+.web_education .con:after{display: block;content: "";width: 100%;clear: both;height: auto;}
+.web_education .con p{cursor: pointer;width: 23%;position: relative;line-height: 80px;margin-left: 2%;background-color: red;display: inline-block;float: left;text-align: center;color: #fff;font-size: 20px;}
+.web_education .con p i{display: none;position: absolute;left: 50%;transform: translateX(-50%) rotate(45deg);bottom: -12px;width: 30px;height: 30px;}
+.web_education .con p:nth-child(1){background-color: #1decd7}
+.web_education .con p:nth-child(1) i{background-color: #1decd7}
+.web_education .con p:nth-child(2){background-color: #49b3ff}
+.web_education .con p:nth-child(2) i{background-color: #49b3ff}
+.web_education .con p:nth-child(3){background-color: #39bdfb}
+.web_education .con p:nth-child(3) i{background-color: #39bdfb}
+.web_education .con p:nth-child(4){background-color: #02e582}
+.web_education .con p:nth-child(4) i{background-color: #02e582}
+.web_education .on{display: block!important;}
+.evaluate-wapper{margin: auto;}
+.evaluate{background: #f5f7f9;width: 100%;}
+.evaluate h2{color: #333;font-size: 30px;margin: 53px auto;}
+.evaluate h2 span{color: #ff4444}
+.evaluate .item{width: auto}
+.evaluate .btm{text-align: center;}
+.evaluate .btm a{display: inline-block;width: 400px;line-height: 60px;font-weight: bold;font-size: 18px;color: #fff;border-radius: 15px;background: transparent url("../img/ui_btn_bg.png") no-repeat scroll top center}
+.web_education_wapper .btm{text-align: center;padding: 30px 0 0;}
+.web_education_wapper .btm a{width: 400px;font-size: 18px;font-weight: bold;line-height: 60px;border-radius: 12px;background-color: #0fe2bb;color: #fff;display: inline-block}
+.web_teach{background: #ffbf44;}
+.web_teach h2{font-size: 30px;font-weight: bold;color: #fff;text-align: center;padding: 55px 0 0;}
+.web_teach h2 span{color: #ff4444}
+.web_teach .title{font-size: 20px;text-align: center;color: #fff;line-height: 60px;}
+.web_teach .btm{padding: 60px 0;text-align: center}
+.web_teach .btm a{width: 400px;display: inline-block;line-height: 60px;color: #fff;border-radius: 15px;font-size: 18px;font-weight: bold;background: transparent url("../img/ui_btn_bg.png") no-repeat scroll top center}
+.web_teach .container{margin: 30px auto 0;position: relative}
+.web_teach .item{background-color: #fff;}
+.web_teach .item .name{color: #f04848}
+.python_only{background-color: #f8f8f8}
+.python_only h2{font-size: 30px;color: #333;text-align: center;padding: 40px 0;}
+.python_only h2 span{color: #0bcfab}
+.python_only .container{width: 1200px;padding: 0 0 50px;}
+.python_only .container .item{width: 220px;background-color: #fff;margin: auto;overflow: hidden;min-height: 310px;border-radius: 5px;}
+.python_only .container .item i{display: block;margin: 50px auto;width: 90px;height: 90px;background: transparent url("../img/python_icon.png") no-repeat scroll -16px -100px;}
+.python_only .container .item b{font-weight: normal;font-size: 16px;color: #333;display: inline-block;width: 100%;text-align: center;line-height: 40px;}
+.python_only .container .item span{font-size: 14px;color: #666;padding-left: 12px;padding-right: 12px;display: inline-block;width: 100%;}
+.python_only .container .row .col-md-3:nth-child(2) .item i{background-position: -308px -100px;}
+.python_only .container .row .col-md-3:nth-child(3) .item i{background-position: -596px -100px;}
+.python_only .container .row .col-md-3:nth-child(4) .item i{background-position: -884px -100px;}
+.python_only .container .item:hover{background-color: #0bcfab}
+.python_only .container .item:hover i{background-position: -16px -9px}
+.python_only .container .item:hover b,.python_only .container .item:hover span{color: #fff;}
+.python_only .container .row .col-md-3:nth-child(2) .item:hover i{background-position: -308px -9px;}
+.python_only .container .row .col-md-3:nth-child(3) .item:hover i{background-position: -596px -9px;}
+.python_only .container .row .col-md-3:nth-child(4) .item:hover i{background-position: -884px -9px;}
+.python_only img{display: block;margin: 10px auto;}
+.python_only .btm{padding: 60px 0;text-align: center}
+.python_only .btm a{width: 400px;display: inline-block;line-height: 60px;color: #fff;border-radius: 15px;font-size: 18px;font-weight: bold;background: #0fe2bb url("../img/python_green_btn.png") no-repeat scroll top center}
+.web_dream{background-color: #f8f8f8}
+.web_dream h2{font-size: 30px;color: #333;text-align: center;padding: 0 0 50px;font-weight: bold;}
+.web_dream .container{width: 1200px;padding: 0;}
+.web_dream .container .item{width: 375px;margin: 0 auto 30px;border: 1px solid #f2f2f2}
+.web_dream .container .item img{padding: 5px;width: 100%;}
+.web_dream .btm{padding: 10px 0 40px;text-align: center}
+.web_dream .btm a{width: 400px;display: inline-block;line-height: 60px;color: #fff;border-radius: 15px;font-size: 18px;font-weight: bold;background: #0fe2bb url("../img/python_green_btn.png") no-repeat scroll top center}
+.java_h1{height: 150px;text-align: center;padding: 0;box-shadow: 0 5px 10px #efefef;}
+.java_h1 h1{font-size: 30px;padding-top: 36px;font-weight: bold}
+.java_h1 h1 span{color: #f04848;}
+.java_h1 p{color: #666666;line-height: 60px;font-size: 20px;}
+.java_success{text-align: center;margin-bottom: 100px;}
+.java_success img{display: block;margin: 0 auto}
+.java_success a{display: block;height: 240px;border: 7px solid #fff;width: 260px;background-color: #1fcf6d;color: #fff;box-shadow: 0 5px 10px #efefef;}
+.java_success .hh1{display: inline-block;width: 100%;font-size: 30px;margin-top: 90px;}
+.java_success .con{display: inline-block;width: 100%;font-size: 16px;line-height: 20px;}
+.java_success .data{background-color: #12c1eb}
+.java_success .oracle{background-color: #e14040}
+.java_success .redhat{background-color: #e14040}
+@media all and (max-width: 1200px){
+    .cisco_king .container{width: 100%;}
+    .cisco_king .title{line-height: 28px;padding: 20px 0}
+    .cisco_king .container .col-md-4{font-size: 12px;background-size: 100%}
+    .cisco_king .container .col-md-4:last-child{background-size: 100%}
+    .cisco_king .container .col-md-4 .job span{font-size: 13px;text-indent: 0;}
+    .web_education table,.web_education{width: 100%;}
+    .web_education table tr th.lesson{width: 24.16%;}
+    .web_education table tr th.lesson_once{width: 61.66%;}
+    .web_education table tr th.more{width: 14.16%}
+    .web_education_wapper{overflow: hidden}
+    .evaluate .item{width: 80%;}
+    .evaluate .item img{display: block;margin-left: 10%;}
+    .evaluate h2{margin: 30px auto 12px;}
+    .evaluate .java_small{margin-bottom: 20px;}
+    .evaluate{height: auto;padding-bottom: 20px;}
+    .web_dream .container,.web_dream .container .item{width: 100%;}
+    .java_success a,.python_select .container,.python_only .container{width: 100%;}
+    .python_select .title{width: 100%;font-size: 16px;border-radius: 15px;}
+}
+@media all and (max-width: 996px){
+    .python_select h2{padding: 20px 0;}
+    .cisco_king .container .col-md-4 .item{max-width: 320px;margin: auto}
+    .cisco_king .container .col-md-4 .job span{font-size: 12px;text-indent: 0;}
+    .cisco_king h2,.cisco_high h2,.java_h1 h1{font-size: 25px;}
+    .cisco_king .title{font-size: 18px;}
+    .cisco_king{padding-bottom: 20px;}
+    .web_education h1{padding-top: 10px;font-size: 25px;}
+    .web_education .small_h{font-size: 16px;line-height: 40px;}
+    .web_education table tr td{padding: 10px}
+    .evaluate h2{font-size: 25px;margin: 10px auto}
+    .web_teach h2{font-size: 25px;padding-top: 20px;}
+    .web_teach .title{font-size: 16px;line-height: 22px;padding: 10px 15px 0;}
+    .web_dream h2,.web_more .more_head h2{font-size: 25px;}
+    .oracle_banner_a{display: none}
+    .oracle_banner img{display: block;width: 100%}
+    .java_success img{display: none}
+    .java_success a{height: 160px;}
+    .java_success .hh1{margin-top: 30px;}
+    .java_success {padding-top: 20px;margin-bottom: 20px;}
+    .python_select .title{line-height: 60px;font-size: 14px;height: 60px;width: 98%}
+    .python_select h2,.python_only h2{font-size: 25px;}
+    .python_select .container .col-md-3,.python_only .container .item{margin-bottom: 15px;}
+    .python_only .container .item{width: 100%;max-width: 220px;}
+    .python_select .container  .con{min-height: 150px;}
+    .cisco_king{display: none}
+    .python_select .title{margin-bottom: 35px;}
+    .python_select,.web_dream h2{padding-bottom: 35px;}
+}
+@media all and (max-width: 760px){
+    .python_select h2{padding: 15px 0;}
+    .cisco_king h2,.cisco_high h2,.python_only h2,.java_h1 h1{font-size: 18px;}
+    .java_h1 h1{padding-top: 20px;}
+    .java_h1{height: 100px;}
+    .java_h1 p{font-size: 16px;}
+    .cisco_king .title{font-size: 16px;line-height: 20px;text-indent: 32px;padding: 15px 5px;}
+    .web_education_wapper{display: none}
+    .evaluate .btm{padding: 0;}
+    .evaluate .btm a{width: 200px;line-height: 30px;font-size: 14px;font-weight: normal;background-size: cover}
+    .evaluate{padding-bottom: 0;}
+    .web_teach .btm{padding: 20px 0;}
+    .web_teach .btm a{width: 200px;font-size: 16px;line-height: 30px;font-weight: normal}
+    .web_teach h2,.python_select h2{font-size: 18px;}
+    .cisco_king{display: block}
+    .python_select .title{font-size: 12px;line-height: 20px;background: transparent;padding: 0 15px;margin-bottom: 15px;}
+    .python_select .container .item{padding: 20px 0 15px;}
+    .python_select .container .item h3{font-size: 16px;}
+    .python_select .container .item .small_h3{font-size: 14px;}
+    .python_select .container  .con{font-size: 12px;min-height: 170px;line-height: 20px;}
+    .python_only img{width: 80%}
+    .python_select{padding-bottom: 15px;}
+    .python_only .container .item b{line-height: 20px;padding-bottom: 10px;}
+    .python_only .container .col-md-3{padding: 0 6px;}
+    .web_dream h2{padding-bottom: 15px;}
+}
+@media all and  (max-width: 515px){
+    .python_only img{width: 94%;}
+    .evaluate h2{font-size: 16px;padding: 0 16px;}
+    .web_teach .title{font-size: 14px;}
+    .web_dream .container .col-xs-6{padding: 0 5px;}
+    .web_dream .container .item{margin-bottom: 8px;}
+    .web_dream h2{font-size: 18px;}
+    .java_success .hh1{font-size: 25px;margin-top: 20px;}
+    .java_success .row .col-xs-6{padding: 0;}
+    .java_success a{height: 130px;}
+    .python_select .container  .con{line-height: 16px;}
+    .python_only .btm{padding: 20px 0;}
+    .web_dream .btm{padding: 10px 0;}
+    .python_only .btm a,.cisco_king .btm a,.web_dream .btm a{width: 200px;line-height: 30px;font-size: 14px;font-weight:normal;border-radius: 5px;}
+    .cisco_king .btm{padding-top: 15px;}
+    .python_select .container .item .small_h3{font-size: 12px;}
+    .python_select .container .col-md-3{padding-left: 6px;padding-right: 6px;}
+    .python_select .container  .con{padding: 8px;}
+    .python_select .container .item{padding: 2px 0 8px;}
+    .java_h1 p{line-height: 40px;}
+    .java_h1{height: 80px;}
+}

@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>企业培训</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/swiper-3.4.1.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/swiper.jquery.min.js"></script>
+    <script src="../js/mobile.js"></script>
+    <script>
+        window.onload=function () {
+            var mySwiper = new Swiper ('.swiper-container-banner', {
+                autoplay: 5000,
+                pagination : '.swiper-pagination',
+                paginationClickable :true,
+                loop : true
+            });
+            var mIcon=document.querySelector('.icon');
+            var mNav=document.querySelector('.m_nav');
+            var mOne=document.querySelector('.m_f_one');
+            var mTwo=document.querySelector('.m_f_two');
+            var oOne=document.querySelector('.m_foot_one');
+            var oTwo=document.querySelector('.m_foot_two');
+            touchEvent.tap(mIcon,function () {
+                if (mIcon.className=="icon"){
+                    mNav.className+=' show';
+                    mIcon.className+=' close';
+                }else{
+                    mNav.className="m_nav";
+                    mIcon.className="icon";
+                }
+            });
+            touchEvent.tap(mOne,function () {
+                if (oOne.className=="m_foot_one"){
+                    oOne.className+=" m_auto";
+                    $(oOne).height($(oOne).children().length*20+'px');
+                }else{
+                    oOne.className="m_foot_one";
+                    $(oOne).height(0);
+                }
+            });
+            touchEvent.tap(mTwo,function () {
+                if (oTwo.className=="m_foot_two"){
+                    oTwo.className+=" m_auto";
+                    $(oTwo).height($(oTwo).children().length*20+'px');
+                }else{
+                    oTwo.className="m_foot_two";
+                    $(oTwo).height(0);
+                }
+            });
+            touchEvent.tap($(".friend")[0],function () {
+                if ($(".friend")[0].className=="friend col-md-10"){
+                    $(".friend")[0].className+=" m_auto";
+                    $(".friend").height(($(".friend").children().length*20)+'px');
+                }else{
+                    $(".friend")[0].className="friend col-md-10";
+                    $(".friend").height("36px");
+                }
+            });
+            touchEvent.tap($(".m_ewm")[0],function () {
+                if ($(".mobile_ewm")[0].className=="mobile_ewm col-xs-12"){
+                    $(".mobile_ewm")[0].className+=" m_auto";
+                    $(".mobile_ewm").height(215+'px');
+                }else{
+                    $(".mobile_ewm")[0].className="mobile_ewm col-xs-12";
+                    $(".mobile_ewm").height("36px");
+                }
+            });
+        }
+    </script>
+
+
+<!-- m.wanho.org Baidu tongji analytics -->
+<!-- wanho.org Baidu tongji analytics -->
+<script>
+var _hmt = _hmt || [];
+(function() {
+var hm = document.createElement("script");
+hm.src = "https://hm.baidu.com/hm.js?5b6c8b93793cb5c6fafa7dc2d87edc8e";
+var s = document.getElementsByTagName("script")[0];
+s.parentNode.insertBefore(hm, s);
+})();
+</script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+var hm = document.createElement("script");
+hm.src = "https://hm.baidu.com/hm.js?0c4b80e0ebb15ab9bb4b4c02e3d739c2";
+var s = document.getElementsByTagName("script")[0];
+s.parentNode.insertBefore(hm, s);
+})();
+</script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+var hm = document.createElement("script");
+hm.src = "https://hm.baidu.com/hm.js?e8aecc0a7978b919e0352416208bb334";
+var s = document.getElementsByTagName("script")[0];
+s.parentNode.insertBefore(hm, s);
+})();
+</script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+var hm = document.createElement("script");
+hm.src = "https://hm.baidu.com/hm.js?f1fba78cca2f7bdf39d5e5659e5ce566";
+var s = document.getElementsByTagName("script")[0];
+s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</head>
+<body class="index">
+<!--头部-->
+<div class="container header">
+    <div class="logo">
+        <img src="../img/logo.png" alt="logo"/>
+    </div>
+    <div class="tel">
+        <em class="call_logo"></em>
+        <i>咨询热线:</i>
+        <span>400-100-1100</span>
+    </div>
+    <div class="title">
+        <span></span>
+        <span class="right"></span>
+        <p class="china">誉满二十四载 领跑长三角</p>
+        <p class="english">IN TWENTY-FOUR YEARS, LEADING THE YANGTZE RIVER DELTA.</p>
+    </div>
+</div>
+<div class="mobile visible-xs visible-sm">
+    <div class="icon">
+
+    </div>
+    <div class="m_logo">
+        <img src="../img/m_logo.png" alt="">
+    </div>
+    <div class="m_call">
+
+    </div>
+    <ul class="m_nav">
+        <li><a href="">企业培训</a></li>
+        <li><a href="">院校合作</a></li>
+        <li><a href="">考试中心</a></li>
+        <li><a href="">立即申请</a></li>
+        <li><a href="">下载中心</a></li>
+        <li><a href="">联系我们</a></li>
+        <li></li>
+    </ul>
+</div>
+<!--nav-->
+<div class="container-fluid nav">
+    <ul class="nav_bar container">
+        <li>
+            <ul class="nav-left">
+                <li><a href="">新手指南</a></li>
+            </ul>
+        </li>
+        <li><a href="" class="on">首页</a></li>
+        <li><a href="">企业培训</a></li>
+        <li><a href="">院校合作</a></li>
+        <li><a href="">考试中心</a></li>
+        <li><a href="">立即申请</a></li>
+        <li><a href="">下载中心</a></li>
+        <li><a href="">联系我们</a></li>
+    </ul>
+</div>
+<!--banner-->
+<div class="train_banner">
+    <h1>
+        江苏地区
+    </h1>
+    <p>
+        IT关键业务解决方案提供商
+    </p>
+</div>
+<!--动态新闻-->
+<div class="index-news container">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="right">
+                <h2>
+                    <small>中心动态</small>
+                    <a href="">查看更多&gt;&gt;</a>
+                </h2>
+                <ul>
+                    <li>
+                        <p class="news_h">中心新闻-行业动态-就业喜报</p>
+                        <p>
+                            <img src="../img/img01.png" alt="" class="img">
+                            <em class="h1">欢乐24周年，这个冬天，我们来约个惠吧！</em>
+                            <span>
+                                24年，江苏万和风雨兼程，感恩有你！即日起至2016年12月31日起，万和感恩回馈精彩来袭，2016年最后一次哦！
+                                绝对是你不容错过的感恩盛会！
+                            </span>
+                            <a href="">查看详情</a>
+                        </p>
+                    </li>
+                    <li>
+                        <a href="">[中心新闻]</a>
+                        <a href="" class="center">圣诞平安节我们这样过，你呢</a>
+                        <span class="right">2016-12-26</span>
+                    </li>
+                    <li>
+                        <a href="">[中心新闻]</a>
+                        <a href="" class="center">圣诞平安节我们这样过，你呢</a>
+                        <span class="right">2016-12-26</span>
+                    </li>
+                    <li>
+                        <a href="">[中心新闻]</a>
+                        <a href="" class="center">圣诞平安节我们这样过圣诞平安节我们这样过圣诞平安节我们这样过，你呢</a>
+                        <span class="right">2016-12-26</span>
+                    </li>
+                    <li>
+                        <a href="">[中心新闻]</a>
+                        <a href="" class="center">圣诞平安节我们这样过，你呢</a>
+                        <span class="right">2016-12-26</span>
+                    </li>
+                    <li>
+                        <a href="">[中心新闻]</a>
+                        <a href="" class="center">圣诞平安节我们这样过，你呢</a>
+                        <span class="right">2016-12-26</span>
+                    </li>
+                    <li>
+                        <a href="">[中心新闻]</a>
+                        <a href="" class="center">圣诞平安节我们这样过，你呢</a>
+                        <span class="right">2016-12-26</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="right">
+                <h2>
+                    <small>中心动态</small>
+                    <a href="">查看更多&gt;&gt;</a>
+                </h2>
+                <ul>
+                    <li>
+                        <p class="news_h">中心新闻-行业动态-就业喜报</p>
+                        <p>
+                            <img src="../img/img02.png" alt="" class="img">
+                            <em class="h1">欢乐24周年，这个冬天，我们来约个惠吧！</em>
+                            <span>
+                                24年，江苏万和风雨兼程，感恩有你！即日起至2016年12月31日起，万和感恩回馈精彩来袭，2016年最后一次哦！
+                                绝对是你不容错过的感恩盛会！
+                            </span>
+                            <a href="">查看详情</a>
+                        </p>
+                    </li>
+                    <li>
+                        <a href="">[中心新闻]</a>
+                        <a href="" class="center">圣诞平安节我们这样过，你呢</a>
+                        <span class="right">2016-12-26</span>
+                    </li>
+                    <li>
+                        <a href="">[中心新闻]</a>
+                        <a href="" class="center">圣诞平安节我们这样过，你呢</a>
+                        <span class="right">2016-12-26</span>
+                    </li>
+                    <li>
+                        <a href="">[中心新闻]</a>
+                        <a href="" class="center">圣诞平安节我们这样过圣诞平安节我们这样过圣诞平安节我们这样过，你呢</a>
+                        <span class="right">2016-12-26</span>
+                    </li>
+                    <li>
+                        <a href="">[中心新闻]</a>
+                        <a href="" class="center">圣诞平安节我们这样过，你呢</a>
+                        <span class="right">2016-12-26</span>
+                    </li>
+                    <li>
+                        <a href="">[中心新闻]</a>
+                        <a href="" class="center">圣诞平安节我们这样过，你呢</a>
+                        <span class="right">2016-12-26</span>
+                    </li>
+                    <li>
+                        <a href="">[中心新闻]</a>
+                        <a href="" class="center">圣诞平安节我们这样过，你呢</a>
+                        <span class="right">2016-12-26</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!--版权尾部-->
+<div class="footer container-fluid">
+    <div class="con container">
+        <div class="row">
+            <div class="left col-md-5 col-sm-12">
+                <h2 class="m_f_one">
+                    <span>报名方式</span>
+                    <img src="../img/jia.png" class="jia hidd">
+                </h2>
+                <ul class="m_foot_one">
+                    <li>
+                        <span class="name">联系电话:</span>
+                        <span class="value">025-68592555</span>
+                        <span class="value">400-110-1100</span>
+                    </li>
+                    <li>
+                        <span class="name">微信公众号:</span>
+                        <span class="value">wanho1993</span>
+                    </li>
+                    <li>
+                        <p>通过扫描二维码关注报名，根据顺序安排位置</p>
+                    </li>
+                </ul>
+                <div class="hig"></div>
+            </div>
+            <div class="right col-md-5 col-sm-12">
+                <h2 class="m_f_two"><span>上课地址</span>
+                    <img src="../img/jia.png" class="jia inline-top">
+                </h2>
+                <ul class="m_foot_two">
+                    <li>
+                        <span class="name">上课地址：</span>
+                        <span class="value">南京市中山北路26号新晨国际大厦23、24层</span>
+                    </li>
+                    <li>
+                        <span class="name">交通信息：</span>
+                        <span class="value">地铁一号线鼓楼站4A出口</span>
+                    </li>
+                    <li>
+                        <p>如有不清楚的地方请拨打我们的客户热线</p>
+                    </li>
+                </ul>
+                <div class="hig"></div>
+            </div>
+            <div class="col-md-2 ewm">
+                <img src="../img/ewm.png" alt="">
+                <span>万和微信公众号</span>
+            </div>
+        </div>
+        <dl class="friend col-md-10">
+            <dt class="inline">友情链接
+                <img src="../img/jia.png" class="jia hidd">
+                <span class="hidee">:</span>
+            </dt>
+            <dd class="first">华为认证培训</dd>
+            <dd>西安北大青鸟</dd>
+            <dd>嘉为IT培训</dd>
+            <dd>Java1234</dd>
+            <dd>鸿鹄论坛</dd>
+            <dd>华清安卓开发培训</dd>
+            <dd>CCNA</dd>
+            <dd>南京Java培训</dd>
+            <dd>Java开发学习</dd>
+            <dd>潍坊雅思培训</dd>
+            <dd>中国成人教育</dd>
+            <dd>华为</dd>
+            <dd>Oracle</dd>
+            <dd>Redhat</dd>
+            <dd>java开发培训</dd>
+            <div class="hig"></div>
+        </dl>
+
+    </div>
+    <div class="mobile_ewm col-xs-12">
+        <strong class="m_ewm">二维码 <img src="../img/jia.png" class="jia"></strong>
+        <img src="../img/ewm.png" alt="" class="patop">
+        <span>万和微信公众号</span>
+    </div>
+    <div class="address">
+        江苏万和计算机培训中心&copy;版权所有 苏ICP备11034309号-1
+    </div>
+</div>
+</body>
+<script>
+    function SS(a,b) {
+        var myTeacher = new Swiper ('.swiper-container-teacher', {
+            autoplay: 5000,
+            prevButton:'.swiper-button-prev-teach',
+            nextButton:'.swiper-button-next-teach',
+            paginationClickable :true,
+            loop : true,
+            slidesPerView : a,
+        });
+        var myEvaluate = new Swiper ('.swiper-container-evaluate', {
+            autoplay: 5000,
+            prevButton:'.swiper-button-prev-e',
+            paginationClickable :true,
+            nextButton:'.swiper-button-next-e',
+            loop : true,
+            slidesPerView : b,
+        });
+    }
+    (function () {
+        var width=$('body').width();
+        if(width<996 && width>760){
+            SS(3,2)
+        }else if(width>996) {
+            SS(4,3)
+        }else {
+            SS(2,1)
+        }
+    })();
+    $(window).resize(function () {
+        var width=$('body').width();
+        if(width<996 && width>760){
+            SS(3,2)
+        }else if(width>996) {
+            SS(4,3)
+        }else {
+            SS(2,1)
+        }
+    })
+</script>
+</html>

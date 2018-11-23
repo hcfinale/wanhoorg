@@ -1,0 +1,299 @@
+/*
+***
+cisco and HUAWRI ALl the same
+__-----___----____
+样式一样
+***
+*/
+.nav{margin-bottom: 0;}
+.nav{margin-bottom: 0;}
+.oracle_banner img{display: none}
+.oracle_banner_a{height: 625px;background: transparent url("../img/cisco_banner.png") no-repeat scroll top center;}
+.cisco_pass{height: 1360px;background:transparent url("../img/cisco_pass.png") no-repeat scroll top center;color: #fff;text-align: center}
+.cisco_pass h2{font-size: 30px;font-weight: bold;padding-top: 35px;}
+.cisco_pass .title{font-size: 20px;line-height: 45px;}
+.cisco_pass .container{width: 1200px;padding: 0;margin-top: 30px;}
+.cisco_pass .container .table_header{width: 825px;line-height: 40px;font-size: 14px;text-align: center;position: relative;z-index: 222;left: 0;top: 0;}
+.cisco_pass .container .table_header div{background-color: #ff4444}
+.cisco_pass .container .table_header  .name,.cisco_pass .container .table_header .education{width: 20%;float: left}
+.cisco_pass .container .table_header .project{width: 25%;float: left}
+.cisco_pass .container .table_header .company{width: 35%;float: left}
+.cisco_pass .container table{color: #333;width: 100%;position: relative;left: 0;top:0;font-size: 14px;}
+.cisco_pass .container table  .name,.cisco_pass .container table .education{width: 20%;}
+.cisco_pass .container table .project{width: 25%;color: #e83737;}
+.cisco_pass .container table .company{width: 35%;}
+.cisco_pass .container table tr th,.cisco_pass .container table tr td{font-weight: normal;text-align: center;line-height: 40px;}
+.cisco_pass .container .one{background-color: #fafafa}
+.cisco_pass .container .two{background-color: #f5f5f5}
+.cisco_pass .container .left{height: 440px;overflow: hidden;margin: auto;width: 825px;}
+.cisco_pass .btm{text-align: center;margin: 60px 0;}
+.cisco_pass .btm a{display: inline-block;width: 400px;line-height: 60px;border-radius: 15px;background:transparent url(../img/oracle_btm_img01.png) no-repeat scroll top center;color: #ff4444;font-weight: bold;font-size: 18px;}
+.cisco_pass .picture{position: relative;width: 1200px;margin: 35px auto 0;min-height: 460px;}
+.cisco_pass .picture .item{width: 280px;position: absolute;top: 0;text-align: center}
+.cisco_pass .picture .item:nth-child(1){left: 0;}
+.cisco_pass .picture .item:nth-child(2){left: 38%;}
+.cisco_pass .picture .item:nth-child(3){right: 0;}
+.cisco_pass .picture .item img{width: 100%;}
+.cisco_pass .picture .item span{padding: 0 25px;display: inline-block;width: 100%;line-height: 26px;font-size: 16px;font-weight: bold}
+.cisco_pass .picture .item a{display: inline-block;margin-top: 15px;width: 125px;line-height: 25px;border-radius: 5px;background-color: #fdd14c;font-size: 14px;color: #f93d3f;font-weight: bold}
+.cisco_teach{background: #fafafa;}
+.cisco_teach h2{font-size: 30px;font-weight: bold;color: #333;text-align: center;padding: 55px 0 0;}
+.cisco_teach h2 span{color: #ff4444}
+.cisco_teach .title{font-size: 20px;text-align: center;color: #333333;line-height: 60px;}
+.cisco_teach .btm{padding: 60px 0;text-align: center}
+.cisco_teach .btm a{width: 400px;display: inline-block;line-height: 60px;background-color: #ff4444;color: #fff;border-radius: 15px;font-size: 18px;font-weight: bold}
+.cisco_teach .container{margin: 30px auto 0;position: relative}
+.evaluate-from{height: 580px;background: transparent url("../img/cisco_704.png") no-repeat scroll top center;padding: 0;overflow: hidden}
+.evaluate-from h2{font-size: 30px;text-align: center;margin-top: 40px;color: #fff;font-weight: bold}
+.evaluate-from span{color: #f04848;}
+.evaluate-from .small_h{font-size: 20px;color: #fff;line-height: 60px;text-align: center;margin-bottom: 10px;}
+.evaluate-from .item{width: 96%;background-color: #4c8bf6;border-radius: 8px;margin: auto}
+.evaluate-from .item img{width: 100%;}
+.evaluate-from .item h3{text-align: center;color: #fff;font-size: 16px;line-height: 40px;}
+.evaluate-from .item p{font-size: 14px;color: #fff;line-height: 26px;padding:  0 18px 10px;}
+.evaluate-from .btm{text-align: center;margin-top: 40px;}
+.evaluate-from .btm a{width: 200px;text-align: center;line-height: 32px;color: #fff;background-color: #f04848;display: inline-block;border-radius: 5px;font-weight: bold;font-size: 18px;}
+.mr_200{margin-left: 220px;}
+.evaluate .item{width: auto}
+.evaluate-wapper{margin: auto;}
+.teach-prev{left: -30px;}
+.teach-next{right: -30px;}
+.teacher .item{background-color: #fff;}
+.teacher .item .name{color: #f04848}
+.cisco_success{background-color: #f9f9f9;}
+.cisco_success h2{font-size: 30px;color: #333;font-weight: bold;text-align: center;padding-top: 35px;}
+.cisco_success h2 span{color: #ff4444;}
+.cisco_success .title{line-height: 60px;text-align: center;font-size: 20px;color: #666666;}
+.cisco_success .container{padding: 0 0 50px;}
+.cisco_success .container .item{width: 20%;float: left}
+.cisco_success .container .item .con{width: 220px;min-height: 335px;margin: auto;background-color: #fff;}
+.cisco_success .container .item .con:hover{box-shadow: 0px 0px 13px #e6e6e6;transform: translateY(-.5%);transition: all .5s;background-color: #ff5e5e}
+.cisco_success .container .item .con i{display: inline-block;width: 90px;height: 110px;margin: 60px 65px 25px;background: transparent url("../img/oracle_icon1.png") scroll no-repeat -41px -104px;}
+.cisco_success .container .item:nth-child(2) .con i{background: transparent url("../img/oracle_icon1.png") scroll no-repeat -284px -104px;}
+.cisco_success .container .item:nth-child(3) .con i{background: transparent url("../img/oracle_icon1.png") scroll no-repeat -526px -104px;}
+.cisco_success .container .item:nth-child(4) .con i{background: transparent url("../img/oracle_icon1.png") scroll no-repeat -770px -104px;}
+.cisco_success .container .item:nth-child(5) .con i{background: transparent url("../img/oracle_icon1.png") scroll no-repeat -1011px -104px;}
+.cisco_success .container .item .con b,.cisco_success .container .item .con span{display: inline-block;width: 100%;}
+.cisco_success .container .item .con b{font-size: 18px;color: #ff5e5e;line-height: 32px;text-align: center}
+.cisco_success .container .item .con span{font-size: 14px;color: #333333;padding: 0 12px;line-height: 18px;}
+.cisco_success .container .item:nth-child(1) .con:hover i{background: transparent url("../img/oracle_icon1.png") scroll no-repeat -41px -2px;}
+.cisco_success .container .item .con:hover b{color: #fff;}
+.cisco_success .container .item .con:hover span{color: #fff;}
+.cisco_success .container .item:nth-child(2) .con:hover i{background: transparent url("../img/oracle_icon1.png") scroll no-repeat -284px -2px;}
+.cisco_success .container .item:nth-child(3) .con:hover i{background: transparent url("../img/oracle_icon1.png") scroll no-repeat -526px -2px;}
+.cisco_success .container .item:nth-child(4) .con:hover i{background: transparent url("../img/oracle_icon1.png") scroll no-repeat -770px -2px;}
+.cisco_success .container .item:nth-child(5) .con:hover i{background: transparent url("../img/oracle_icon1.png") scroll no-repeat -1011px -2px;}
+.cisco_success .btm{text-align: center;padding-bottom: 50px;}
+.cisco_success .btm a{display: inline-block;width: 400px;line-height: 60px;font-weight: bold;font-size: 18px;color: #fff;background-color: #ff5e5e;border-radius: 15px;}
+.cisco_king{background-color: #fcd561;padding-bottom: 50px;}
+.cisco_king h2{font-size: 30px;color: #ff4444;text-align: center;font-weight: bold;padding-top: 40px;}
+.cisco_king .title{font-size: 20px;color: #ff4444;text-align: center;line-height: 60px;}
+.cisco_king .container{width: 1200px;padding: 0;margin: 15px auto 0;}
+.cisco_king .container .col-md-4 .item{background: transparent url("../img/cisco_king_img01.png") no-repeat scroll top center;min-height: 400px;font-size: 15px;color: #333333}
+.cisco_king .container .col-md-4:last-child .item{background: transparent url("../img/cisco_king_img02.png") no-repeat scroll top center;}
+.cisco_king .container .col-md-4 h3{font-size: 18px;color: #000;text-align: center;padding-top: 80px;}
+.cisco_king .container .col-md-4 .list_1{width: 275px;margin:25px auto 0;line-height: 23px;}
+.cisco_king .container .col-md-4 .list_1 span{color: #ff4444;position: relative}
+.cisco_king .container .col-md-4 .list_1 span:before{display: inline-block;border-top: 1px dashed #dadada;width: 150px;content: "";height: 6px;margin: 0 5px;}
+.cisco_king .container .col-md-4 .user{text-indent: 30px;margin-top: 20px;}
+.cisco_king .container .col-md-4 .con{padding: 30px;line-height: 28px;}
+.cisco_king .container .col-md-4 .company{text-align: right;padding: 0 20px;}
+.cisco_king .container .col-md-4 .job{margin-top: 200px;display: inline-block;width: 100%}
+.cisco_king .container .col-md-4 .job span{display: inline-block;width: 37%;text-align: center;float: left;text-indent: 15px;}
+.cisco_king .container .col-md-4 .job span:last-child{width: 26%;text-indent: 0}
+.cisco_high {background-color: #f9f9f9;}
+.cisco_high h2{font-size: 30px;color: #132c42;font-weight: bold;text-align: center;padding: 60px 0;}
+.cisco_high h2 span{color: #ff4444}
+.cisco_high .container{width: 1200px;padding: 0;margin-bottom: 50px;}
+.cisco_high .container .col-md-4 p{width: 350px;border-radius: 5px;border:1px solid #ededed;background-color: #fff;margin: auto;text-align: center;padding-top: 30px;min-height: 440px;}
+.cisco_high .container .col-md-4 p span{font-size: 16px;font-weight: bold;color: #333333;display: inline-block;width: 100%;padding: 20px 10px 30px;}
+.cisco_direction{min-height: 635px;background: transparent url("../img/cisco_diraction.png") scroll no-repeat top center}
+.cisco_direction h2{font-size: 30px;color: #fff;font-weight: bold;text-align: center;padding-top: 30px;}
+.cisco_direction h2 span{color: #ff5e5e}
+.cisco_direction .title{color: #fff;font-size: 20px;text-align: center;line-height: 60px;}
+.cisco_direction .con{width: 1100px;margin: auto;}
+.cisco_direction .con .left{width: 450px;height: 470px;padding-top: 15px;float: left}
+.cisco_direction .con .left .item{display: inline-block;float: left;width: 360px;margin-bottom: 100px;position: relative;line-height: 80px;font-weight: bold;border-radius: 15px;font-size: 18px;}
+.cisco_direction .con .left .item img{margin-left: 12px;margin-right: 12px;}
+.cisco_direction .con .left .item-1{background-color: #498eff;color: #fedb50;}
+.cisco_direction .con .left .item-2{background-color: #ffbd49;color: #fe2539}
+.cisco_direction .con .left .item-3{background-color: #ff4949;color: #fff}
+.cisco_direction .con .left .item b{position: absolute;top: 45%;right: -8px;height: 16px;width: 16px;transform: rotate(45deg);display: none}
+.cisco_direction .con .left .item-1 b{background-color: #498eff;}
+.cisco_direction .con .left .item-2 b{background-color: #ffbd49;}
+.cisco_direction .con .left .item-3 b{background-color: #ff4949;}
+.cisco_direction .con .left .item:last-child{margin-bottom: 0;}
+.cisco_direction .con .right{width: 650px;background:transparent url("../img/oracle_ipad.png") no-repeat scroll top center;height: 470px;position: relative;float: right}
+.cisco_direction .con .right h3{font-size: 18px;text-align: center;color: #ff4444;font-weight: bold;padding-top: 20px;line-height: 30px;}
+.cisco_direction .con .right .hh4{font-size: 14px;color: #333333;font-weight: bold;line-height: 36px;padding-top: 8px;}
+.cisco_direction .con .right .text{font-size: 14px;color: #333333;line-height: 20px;}
+.cisco_direction .con .right .item{position: absolute;left: 85px;top:45px;z-index: -1;width: 480px;background-color: #fafafa;overflow: hidden}
+.cisco_direction .con .right .item-1{z-index: -1}
+.cisco_direction .con .right .item-2{z-index: -1;}
+.cisco_direction .con .right .item-3{z-index: -1;}
+.cisco_direction .con .left .on b{display: block;}
+.cisco_direction .con .right .on{z-index: 9;animation: myfirst 1s;-moz-animation: myfirst 1s;-webkit-animation: myfirst 1s;-o-animation: myfirst 1s;}
+.cisco_huanjing{border-top: 1px solid #f2f2f2}
+.cisco_huanjing h2{font-size: 30px;color: #333;text-align: center;padding-top: 20px;}
+.cisco_huanjing h2 span{color: #ff4444}
+.cisco_huanjing .title{font-size: 20px;color: #666666;line-height: 60px;text-align: center;margin-bottom: 20px;}
+.cisco_huanjing .container{width: 1200px;padding: 0;}
+.cisco_huanjing .container .item{width: 375px;margin: 0 auto 30px;border: 1px solid #f2f2f2}
+.cisco_huanjing .container .item img{padding: 5px;width: 100%;}
+.cisco_more{background: #fff;padding-bottom: 30px;}
+.cisco_more .more_head{height: 145px;box-shadow:1px 12px 20px #e3dfdf;border-top: 1px solid #ededed}
+.cisco_more .more_head h2{font-size: 30px;text-align: center;font-weight: bold;color: #333;padding-top: 32px;}
+.cisco_more .more_head h2 span{color: #ff4444;}
+.cisco_more .more_head .title{font-size: 20px;color: #666666;line-height: 60px;text-align: center}
+.cisco_more .con{width: 1200px;margin: auto}
+.cisco_more .con .col-md-4{padding: 0;text-align: center;}
+.cisco_more .con .col-md-4 p{padding: 80px 0;border: 7px solid #fff;width: 280px;margin: auto;color: #fff;box-shadow: 1px 1px 15px #c5c5c5;margin-top: -5px;}
+.cisco_more .con .col-md-4 p b{display: inline-block;width: 100%;font-size: 30px;line-height: 42px;font-weight: bold}
+.cisco_more .con .col-md-4 p span{display: inline-block;width: 100%;padding: 0 10px;font-size: 18px;}
+.cisco_more .con .col-md-4:nth-child(1) p{background-color: #f98f43}
+.cisco_more .con .col-md-4:nth-child(2) p{background-color: #dc3d3d}
+.cisco_more .con .col-md-4:nth-child(3) p{background-color: #e14040}
+.cisco_more:after{display: block;content: "";width: 100%;height: auto;clear: both}
+.oracle_su{background-color: #f93d3d;overflow: hidden;width: 100%;float: left}
+.oracle_su .con{width: 1200px;margin: auto;}
+.oracle_su .con p{text-align: center;float: right;width: 360px;padding: 150px 0;}
+.oracle_su .con p b{display: inline-block;width: 100%;font-size: 30px;color: #fff;}
+.oracle_su .con p a{width: 340px;line-height: 60px;display: inline-block;font-size: 30px;font-weight: bold;border-radius: 5px;color: #e83737;background-color: #fee100;margin-top: 60px;}
+.oracle_mobile{display: none}
+.oracle_animate{transition: all 2s}
+@media all and (max-width: 1200px){
+    .cisco_success .container,.cisco_success .container .item .con{width: 100%;}
+    .cisco_success .container .item{overflow: hidden}
+    .cisco_pass .container,.cisco_pass .container .table_header,.cisco_huanjing .container,.cisco_huanjing .container .item{width: 100%;}
+    .cisco_pass .container .left,.cisco_pass .container .right{width: 98%;}
+    .cisco_pass .container table{font-size: 12px;}
+    .cisco_pass .picture,.cisco_king .container,.cisco_high .container .col-md-4 p,.cisco_high .container{width: 100%;}
+    .cisco_direction .con .left .item{font-size: 14px;}
+    .cisco_king .title{line-height: 28px;padding: 20px 0}
+    .cisco_king .container .col-md-4{font-size: 12px;background-size: 100%}
+    .cisco_king .container .col-md-4:last-child{background-size: 100%}
+
+    .oracle_reliable .con{width: 996px;}
+    .oracle_success .container .item .con{width: 98%;margin: auto}
+    .oracle_success .container .item .con i{display: block;margin: 60px auto 20px}
+    .cisco_direction .con{width: 996px;}
+    .cisco_direction .con .left{width: 330px;}
+    .cisco_direction .con .left .item{width: 300px;}
+    .cisco_more .con{width: 996px;}
+    .oracle_su .con{width: 996px;}
+    .oracle_su .con img{width: 520px;line-height: 100%;}
+    .oracle_su .con p{padding: 100px 0;}
+    .floating from h2{display: none}
+    .floating from input{margin-left: 20px;}
+    .cisco_king .container .col-md-4 .job span{font-size: 13px;text-indent: 0;}
+}
+@media all and (max-width: 996px) {
+    .cisco_pass .m_hide{display: none}
+    .cisco_king .container .col-md-4 .item{max-width: 320px;margin: auto}
+    .oracle_mobile {display: block;background: #fff;font-size: 12px;height: 180px;overflow: hidden}
+    .oracle_mobile  .table_header{width: 100%;line-height: 30px;text-align: center;position: relative;z-index: 222;left: 0;top: 0;}
+    .oracle_mobile  .table_header div{background-color: #ff4444}
+    .oracle_mobile  .table_header  .name,.oracle_mobile  .table_header .education{width: 20%;float: left}
+    .oracle_mobile  .table_header .project{width: 25%;float: left}
+    .oracle_mobile  .table_header .company{width: 35%;float: left}
+    .oracle_mobile  table{color: #333;width: 100%;position: relative;left: 0;top:0;font-size: 12px;}
+    .oracle_mobile  table  .name,.cisco_pass .container table .education{width: 20%;}
+    .oracle_mobile  table .project{width: 25%;color: #e83737;}
+    .oracle_mobile  table .company{width: 35%;}
+    .oracle_mobile  table tr th,.cisco_pass .container table tr td{font-weight: normal;text-align: center;line-height: 30px;}
+    .cisco_direction,.oracle_banner_a{display: none}
+    .oracle_banner img{display: block;width: 100%;}
+    .cisco_pass{background: #e83737;height: auto;}
+    .cisco_pass .btm{margin: 0;padding: 10px 0;}
+    .cisco_pass .container{display: none}
+    .cisco_success h2,.cisco_teach h2{font-size: 25px;padding-top: 20px;}
+    .oracle_reliable{background: #1e80d2;}
+    .oracle_reliable .con{width: 100%;min-height: inherit}
+    .oracle_reliable .con .item{position: inherit;margin: 0 auto 15px;}
+    .oracle_reliable .con .item:nth-child(1),.oracle_reliable .con .item:nth-child(2),.oracle_reliable .con .item:nth-child(3),.oracle_reliable .con .item:nth-child(4),.oracle_reliable .con .item:nth-child(5){top: 0}
+    .oracle_reliable .title{padding: 25px 0;}
+    .oracle_success .container{width: 100%;}
+    .oracle_reliable .con .item{width: 500px;}
+    .oracle_reliable .con .item b, .oracle_reliable .con .item span{max-width: 330px;}
+    .cisco_success .container .item{width: 50%;text-align: center}
+    .cisco_success .container .item:last-child{width: 100%;}
+    .cisco_success .container .item .con {min-height: inherit;padding-bottom: 10px;}
+    .cisco_success .container .item .con i{margin: 20px auto;}
+    .cisco_king .container .col-md-4 .job span{font-size: 12px;text-indent: 0;}
+    .cisco_more{display: none}
+    .cisco_more .con{width: 100%}
+    .cisco_more .con .col-md-4 img{display: none}
+    .cisco_more .con .col-md-4{margin-bottom: 20px;}
+    .cisco_more .con .col-md-4:nth-child(1){margin-top: 30px;}
+    .cisco_more .con .col-md-4 p{padding: 40px 0;}
+    .cisco_more{height: inherit;background:transparent;}
+    .cisco_more:after{clear: both;width: 100%;height: auto;display: block;content: "";float: left}
+    .oracle_su{display: block;width: 100%;}
+    .oracle_su .con{width: 100%;}
+    .oracle_su .con p b{font-size: 25px;}
+    .oracle_su .con img{display: none}
+    .oracle_su .con p{width: 100%;text-align: center;padding: 60px 0;margin: auto;display: block;float: inherit}
+    .cisco_huanjing h2,.cisco_more .more_head h2{font-size: 25px;}
+    .cisco_king{padding-bottom: 20px;}
+    .cisco_teach .title{font-size: 16px;line-height: 22px;padding: 10px 15px 0;}
+    .evaluate-from h2{font-size: 25px;margin-top: 15px;}
+    .evaluate-from .small_h{font-size: 16px;line-height: 32px;}
+    .cisco_king h2,.cisco_high h2{font-size: 25px;}
+    .cisco_king .title{font-size: 18px;}
+    .cisco_high h2{padding: 20px 0;}
+}
+@media all and (max-width: 760px) {
+     .cisco_high .container .col-md-4 p img{width: 96%;display: block;margin: auto;}
+    .cisco_high .container .col-md-4 p{padding-top: 15px;min-height: 300px;}
+    .cisco_teach .btm a{width: 200px;font-size: 16px;line-height: 30px;font-weight: normal}
+    .cisco_pass .btm a{width: 250px;font-size: 14px;line-height: 30px;font-weight: normal;background-size: cover}
+    .cisco_teach .btm{padding: 20px 0;}
+    .mr_200{margin-top: 10px;margin-left: 0;}
+    .evaluate-from .btm a{font-size: 16px;font-weight: normal}
+    .cisco_king h2,.cisco_high h2{font-size: 18px;}
+    .cisco_king .title{font-size: 16px;line-height: 20px;text-indent: 32px;padding: 0 5px;}
+    .cisco_high .container .col-md-4{padding: 0;}
+    .cisco_high .container .col-md-4 p span{font-size: 12px;font-weight: normal;}
+    .evaluate-from h2{font-size: 18px;}
+    .cisco_high .container{margin-bottom: 10px;}
+    .cisco_more{padding-bottom: 10px;}
+    .evaluate-from{height: auto;padding-bottom: 10px;background:#3d74f7}
+}
+@media all and  (max-width: 515px){
+    .cisco_more{display: block}
+    .cisco_pass h2,.cisco_teach h2{font-size: 18px;padding-top: 15px;}
+    .cisco_pass .title{font-size: 14px;line-height: 20px;padding: 5px 15px;}
+    .oracle_reliable .title{padding: 15px 0;font-size: 18px;}
+    .oracle_reliable .con{padding-left: 5px;padding-right: 5px;}
+    .oracle_reliable .con .item{width: 98%;padding: 0;height: 90px;}
+    .oracle_reliable .con .item img{width: 90px;}
+    .oracle_reliable .con .item b, .oracle_reliable .con .item span{max-width: 205px;margin-left: 5px;}
+    .oracle_reliable .con .item b{font-size: 14px;font-weight: normal;padding-bottom: 0;}
+    .oracle_reliable .con .item span{font-size: 12px;line-height: 17px;word-break:break-all}
+    .oracle_reliable .btm{padding: 15px 0;}
+    .oracle_reliable .btm a{width: 80%;max-width: 350px;line-height: 45px;font-size: 14px;}
+    .cisco_success h2{padding-top: 15px;font-size: 18px;}
+    .cisco_success .title{font-size: 16px;line-height: 40px;}
+    .cisco_success .container .item .con i{margin: 10px auto 0;}
+    .cisco_success .btm a{width: 80%;max-width: 350px;line-height: 45px;font-size: 14px;}
+    .cisco_success .container{padding-bottom: 15px;}
+    .cisco_success .btm{padding-bottom: 15px;}
+    .cisco_huanjing h2{font-size: 18px;}
+    .cisco_huanjing .title,.cisco_more .more_head .title{font-size: 16px;line-height: 40px;}
+    .cisco_huanjing .container .col-xs-6{padding: 0 5px;}
+    .cisco_huanjing .container .item{margin-bottom: 8px;}
+    .cisco_more .more_head h2{font-size: 18px;padding-top: 20px;}
+    .cisco_more .more_head{height: 90px;}
+    .cisco_more{height: auto;}
+    .cisco_more .con{padding-bottom: 10px;overflow: hidden}
+    .oracle_su .con p{padding: 15px 0;}
+    .oracle_su .con p b{font-size: 18px;}
+    .oracle_su .con p a{width: 80%;max-width: 320px;line-height: 45px;font-size: 14px;margin-top: 20px;}
+}
+
+
+@keyframes myfirst
+{
+    from {height: 0;}
+    to {height: 358px;}
+}

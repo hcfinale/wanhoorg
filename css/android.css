@@ -1,0 +1,265 @@
+.nav{margin-bottom: 0;}
+.index-banner{height: 630px;}
+.banner-img{background: transparent url("../img/android_banner.png") no-repeat scroll top center}
+.evaluate-wapper{margin: auto;}
+.evaluate{background: linear-gradient(#07e4f1,#03beef,#009fee);;width: 100%;height: 630px}
+.evaluate h2{color: #fff;font-size: 32px;margin: 53px auto 18px;}
+.evaluate .java_small{font-size: 20px;color: #fff;text-align: center;margin-bottom: 40px;}
+.mr_200{margin-left: 220px;}
+.evaluate .item{width: auto}
+.java_table{width: 1200px;padding:0 0 70px 0;position: relative;}
+.java_table h2{font-size: 32px;color: #333;text-align: center;font-weight: bold;padding: 40px 0 5px;}
+.java_table h2 small{font-size: 32px;color: #f04848;font-weight: bold;}
+.java_table p{font-size: 18px;color: #666666;text-align: center;padding-bottom: 20px;line-height: 70px;}
+.java_table table{width: 100%;border-collapse:collapse;border: 0;position: absolute;top: 40px;left: 0;}
+.java_table table tr th{background-color: #f04848;color: #fff;font-weight: normal;text-align: center;height: 40px;line-height: 40px;}
+.java_table .name,.java_table .job,.java_table .eudecation,.java_table .money{width: 160px;}
+.java_table .school{width: 260px;}
+.java_table .company{width: 280px}
+.java_table table tr td{text-align: center;line-height: 40px;font-size: 14px;color: #333333;}
+.java_table table tr td:last-child{color: #f04848}
+.java_table table tr.one td{background-color: #fafafa;}
+.java_table table tr.two td{background-color: #f5f5f5;}
+.animate{position: relative;width: 1200px;margin: auto;height: 520px;overflow: hidden;font-size: 14px;}
+.table_header{position: absolute;top: 0;left: 0;width: 1200px;background-color: #f04848;z-index: 333;}
+.table_header div{line-height: 40px;height: 40px;color: #fff;text-align: center;float: left}
+.table_header .name,.table_header .job,.table_header .eudecation,.table_header .money{width: 160px;}
+.table_header .school{width: 260px;}
+.table_header .company{width: 300px}
+.java_lesson{padding:0 0 50px 0;border: 0;background-color: #fff;}
+.java_lesson h2{font-size: 32px;color: #333;text-align: center;font-weight: bold;padding: 40px 0 5px;}
+.java_lesson h2 small{font-size: 32px;color: #f04848;font-weight: bold}
+.java_lesson p.small{font-size: 18px;color: #666666;text-align: center;padding-bottom: 20px;line-height: 70px;}
+.java_lesson p.small:after{content: "";display: block;width: 100%;height: auto;border-bottom: 1px solid #dbdbdb;}
+.java_lesson_wapper{width: 1200px;padding: 0;position: relative}
+.java_lesson_wapper .item img{display: block;margin: auto;width: 96%}
+.teach-prev{left: -30px;}
+.teach-next{right: -30px;}
+.java_lesson  .call_me{text-align: center;margin-top: 50px;}
+.java_lesson .ma_200{margin-left: 200px;}
+.java_lesson  .call_me a{display: inline-block;width: 200px;font-size: 18px;color: #fff;line-height: 32px;border-radius: 3px;background:transparent url("../img/android_btn_bg.png") scroll no-repeat center top;}
+.teacher{height: 730px;background:transparent url("../img/android_teach.png") no-repeat scroll top center;width: 100%;clear: both}
+.teacher .teach-wapper{width: 1200px;margin: auto}
+.teacher .item{background-color: #fff;}
+.teacher .item .name{color: #f04848}
+.call_teach{margin: 40px auto 0;}
+.call_teach a{color: #fff;background: transparent url("../img/android_lesson_btn_bg.png") no-repeat scroll center top;font-size: 18px;font-weight: bold;width: 400px;line-height: 60px;height: 60px;}
+.teacher h2{font-size: 30px;color: #fff;padding-top: 30px;font-weight: bold}
+.teacher h2 span{color: #f04848}
+.teacher .small-h{margin-bottom: 0;line-height: 50px;padding-bottom: 20px;color: #fff;}
+.evaluate-from{height: 580px;background: linear-gradient(#5ab9ff,#5ea9ff,#6a90ff);padding: 0;}
+.evaluate-from h2{font-size: 30px;text-align: center;margin-top: 40px;color: #fff;font-weight: bold}
+.evaluate-from span{color: #f04848;}
+.evaluate-from .small_h{font-size: 20px;color: #fff;line-height: 60px;text-align: center;margin-bottom: 10px;}
+.evaluate-from .item{width: 96%;background-color: #72aaff;border-radius: 8px;margin: auto}
+.evaluate-from .item img{width: 100%;}
+.evaluate-from .item h3{text-align: center;color: #fff;font-size: 16px;line-height: 40px;}
+.evaluate-from .item p{font-size: 14px;color: #fff;line-height: 26px;padding:  0 18px 10px;}
+.evaluate-from .btm{text-align: center;margin-top: 40px;}
+.evaluate-from .btm a{width: 200px;text-align: center;line-height: 35px;color: #fff;background: url("../img/android_btn_bg.png");display: inline-block;border-radius: 5px;}
+
+.android_lesson{background-color: #f8f8f8;overflow: hidden}
+.android_lesson h2{font-size: 30px;color: #333333;text-align: center;padding-top: 30px;line-height: 44px;font-weight: bold}
+.android_lesson h2 span{color: #78d63a;}
+.android_lesson .title{line-height: 30px;color: #666666;text-align: center;font-size: 20px;}
+.android_lesson .con{margin: 20px auto;width: 1000px}
+.android_lesson .con .left{float: left;width: 50%}
+.android_lesson .con .right{float: left;width: 50%;}
+.android_lesson .con h3{font-size: 20px;font-weight: bold;line-height: 44px;color: #333333}
+.android_lesson .con p{font-size: 16px;color: #555555;line-height: 30px;}
+.android_lesson .con ul li{font-size: 18px;color: #333333;font-weight: bold}
+.android_lesson .con a{font-size: 18px;color: #fff;font-weight: bold;background: transparent url("../img/android_lesson_btn.png") no-repeat scroll center top;width: 250px;height: 50px;display: inline-block;text-align: center;line-height: 50px;margin-top: 30px;}
+.android_lesson .dowm{background-color: #f5f5f5;width: 100%;clear: both}
+.android_lesson .dowm h2{padding-top: 60px;padding-bottom: 109px;}
+.android_lesson .dowm h2 span{color: #fc4444}
+.android_lesson .dowm .container{width: 1200px;padding: 0;}
+.android_lesson .dowm .container .item{overflow: hidden;width: 220px;background-color: #fff;border-radius: 5px;min-height: 310px;text-align: center;margin: auto;}
+.android_lesson .dowm .container .item i{margin: 50px auto;display: block;width: 90px;height: 90px;background: transparent url("../img/android_icon.png") no-repeat scroll -45px -113px;}
+.android_lesson .dowm .container .item b{font-weight: normal;width: 100%;display: inline-block;font-size: 16px;line-height: 28px;}
+.android_lesson .dowm .container .item span{width: 90%;display: inline-block;font-size: 14px;line-height: 20px;}
+.android_lesson .dowm .container .item:hover b,.android_lesson .dowm .container .item:hover span{color: #fc4444}
+.android_lesson .dowm .container .item:hover i{background-position: -45px -14px}
+.android_lesson .dowm .container .row .col-md-3:nth-child(2) .item i{background-position: -328px -113px;}
+.android_lesson .dowm .container .row .col-md-3:nth-child(3) .item i{background-position: -612px -113px;}
+.android_lesson .dowm .container .row .col-md-3:nth-child(4) .item i{background-position: -895px -113px;}
+.android_lesson .dowm .container .row .col-md-3:nth-child(2) .item:hover i{background-position: -328px -14px;}
+.android_lesson .dowm .container .row .col-md-3:nth-child(3) .item:hover i{background-position: -612px -14px;}
+.android_lesson .dowm .container .row .col-md-3:nth-child(4) .item:hover i{background-position: -895px -14px;}
+.android_lesson .btm{margin: 90px 0 40px;text-align: center}
+.android_lesson .btm a{width: 400px;line-height: 60px;text-align: center;background: transparent url("../img/android_lesson_btn_bg.png") scroll no-repeat center top;color: #fff;font-size: 20px;display: inline-block;font-weight: bold}
+.android_first h2{font-size: 30px;font-weight: bold;color: #333333;text-align: center;margin: 60px 0}
+.android_first h2 span{color: #78d63a}
+.android_first .container{width: 1200px;padding: 0;}
+.android_first .container .col-md-6 img{display: block;margin: auto;border: 3px solid #f1f1f1;padding: 10px 20px;}
+.android_first .btm{margin: 40px 0;text-align: center}
+.android_first .btm a{display: inline-block;width: 400px;line-height: 60px;background: transparent url("../img/green_btn.png") scroll no-repeat center top;color: #fff;font-size: 18px;font-weight: bold}
+.oracle_huanjing{border-top: 1px solid #f2f2f2}
+.oracle_huanjing h2{font-size: 30px;color: #333;text-align: center;padding-top: 20px;}
+.oracle_huanjing h2 span{color: #ff4444}
+.oracle_huanjing .title{font-size: 20px;color: #666666;line-height: 60px;text-align: center;padding-bottom: 20px;}
+.oracle_huanjing .container{width: 1200px;padding: 0;}
+.oracle_huanjing .container .item{width: 375px;margin: 0 auto 30px;border: 1px solid #f2f2f2}
+.oracle_huanjing .container .item img{padding: 5px;width: 100%;}
+.oracle_huanjing .btm{margin: 15px 0 45px;text-align: center}
+.oracle_huanjing .btm a{display: inline-block;width: 400px;line-height: 60px;background: transparent url("../img/green_btn.png") scroll no-repeat center top;color: #fff;font-size: 18px;font-weight: bold}
+.cisco_more{background: #fff;padding-bottom: 130px;}
+.cisco_more .more_head{height: 145px;box-shadow:1px 12px 20px #e3dfdf;border-top: 1px solid #ededed}
+.cisco_more .more_head h2{font-size: 30px;text-align: center;font-weight: bold;color: #333;padding-top: 32px;}
+.cisco_more .more_head h2 span{color: #65d41b;}
+.cisco_more .more_head .title{font-size: 20px;color: #666666;line-height: 60px;text-align: center}
+.cisco_more .con{width: 1200px;margin: auto}
+.cisco_more .con .col-md-4{padding: 0;text-align: center;}
+.cisco_more .con .col-md-4 p{padding: 80px 0;border: 7px solid #fff;width: 280px;margin: auto;color: #fff;box-shadow: 1px 1px 15px #c5c5c5;margin-top: -5px;}
+.cisco_more .con .col-md-4 p b{display: inline-block;width: 100%;font-size: 30px;line-height: 42px;font-weight: bold}
+.cisco_more .con .col-md-4 p span{display: inline-block;width: 100%;padding: 0 10px;font-size: 18px;}
+.cisco_more .con .col-md-4:nth-child(1) p{background-color: #41a9f5}
+.cisco_more .con .col-md-4:nth-child(2) p{background-color: #20cdf7}
+.cisco_more .con .col-md-4:nth-child(3) p{background-color: #ea4b35}
+.cisco_more:after{display: block;content: "";width: 100%;height: auto;clear: both}
+.android_tree{background-color: #29333d;padding-bottom: 30px;}
+.android_tree h2{font-size: 30px;color: #65d41b;text-align: center;line-height: 136px;}
+.android_tree .btm{margin: 40px 0 0;text-align: center}
+.android_tree img{margin: auto;display: block}
+.android_tree .btm a{display: inline-block;width: 400px;line-height: 60px;background: transparent url("../img/green_btn.png") scroll no-repeat center top;color: #fff;font-size: 18px;font-weight: bold}
+
+@media all and (max-width: 1300px) {
+    .teach-next{display: none}
+    .teach-prev{display: none}
+    .java_home{padding: 0;}
+    .android_tree img{width: 100%;}
+}
+@media all and (max-width: 1200px) {
+    .oracle_huanjing .container,.oracle_huanjing .container .item{width: 100%;}
+    .index-banner{height: 530px;}
+    .java_table .name, .java_table .job, .java_table .eudecation, .java_table .money{width: 13.32%}
+    .java_table .school{width: 21.67%}
+    .java_table .company{width: 23.33%;}
+    .evaluate .item{width: 80%;}
+    .evaluate .item img{display: block;margin-left: 10%;}
+    .evaluate h2{margin: 30px auto 12px;}
+    .evaluate .java_small{margin-bottom: 20px;}
+    .java_lesson .java_task{width: 100%;}
+    .java_lesson .java_task .left img{width: 100%;}
+    .java_lesson .java_task .right .h3{padding-bottom: 5px;margin-bottom: 5px;margin-top: 10px;}
+    .java_lesson .java_task .right .con{line-height: 22px;font-size: 13px;}
+    .teacher .teach-wapper{width: 100%;}
+    .java_success a{width: 100%;}
+    .java_lesson  .call_me{margin-top: 50px;}
+    .java_lesson{height: 720px;}
+    .call_teach{margin: 30px auto 0;}
+    .teacher{height: 700px;}
+    .evaluate{height: auto;padding-bottom: 20px;}
+    .table_header .name, .table_header .job, .table_header .eudecation, .table_header .money{width: 13.32%}
+    .table_header .school{width: 21.67%}
+    .table_header .company{width: 23.33%;}
+    .java_table,.animate,.table_header{width: 100%;}
+    .cisco_more .con{width: 996px;}
+    .java_lesson_wapper,.android_lesson .dowm .container,.android_first .container,.android_first .container .col-md-6 img{width: 100%;}
+}
+@media all and (max-width: 992px) {
+    .oracle_huanjing h2,.oracle_more .more_head h2{font-size: 25px;}
+    /*body{overflow-x: hidden}*/
+    .index-banner{height: auto}
+    .java_table h2{padding: 10px 0 0;font-size: 24px;}
+    .java_table h2 small{font-size: 24px;}
+    .java_table p{font-size: 15px;padding-bottom: 0;line-height: 40px;}
+    .m_hide{display: none;}
+    .java_table .name{width: 15%}
+    .java_table .money{width: 20%;}
+    .java_table .school{width: 30%;}
+    .java_table .company{width: 35%;}
+    .java_table table{font-size: 13px;}
+    .java_table table tr td{font-size: 12px;}
+    .java_table table tr td{line-height: 30px;}
+    .java_table table tr th{line-height: 35px;height: 25px;}
+    .java_table{padding-bottom: 10px;}
+    .evaluate h2{font-size: 25px;margin: 10px auto}
+    .evaluate .java_small{font-size: 16px;}
+    .java_lesson h2{padding: 10px 0 5px;font-size: 25px;}
+    .java_lesson h2 small{font-size: 25px;}
+    .java_lesson p.small{padding-bottom: 0;line-height: 40px;font-size: 16px;}
+    .java_lesson  .call_me{margin-top: 15px;}
+    .teacher h2{font-size: 25px;padding-top: 10px;margin-top: 0;}
+    .teacher .small-h{font-size: 16px;padding-bottom: 0;line-height: 40px;}
+    .teacher{height: auto;padding-bottom: 20px;}
+    .java_lesson{padding-bottom: 20px;height: auto}
+    .evaluate-from h2{margin-top: 10px;font-size: 25px;}
+    .evaluate-from .small_h{font-size: 16px;line-height: 40px;margin-bottom: 0;}
+    .evaluate-from .item img{width: 86%;display: block;margin: auto;padding-top: 20px;}
+    .mr_200{margin-left: 15px;}
+    .evaluate-from{height: auto;padding-bottom: 20px;}
+    .evaluate-from .btm{margin-top: 20px;}
+    .java_h1 h1{padding-top: 10px;font-size: 25px;}
+    .java_h1 p{line-height: 40px;font-size: 16px;}
+    .java_h1{height: 80px;}
+    .cisco_more{display: none}
+    .cisco_more .con{width: 100%}
+    .cisco_more .con .col-md-4 img{display: none}
+    .cisco_more .con .col-md-4{margin-bottom: 20px;}
+    .cisco_more .con .col-md-4:nth-child(1){margin-top: 30px;}
+    .cisco_more .con .col-md-4 p{padding: 40px 0;}
+    .cisco_more{height: inherit;background:transparent;}
+    .cisco_more:after{clear: both;width: 100%;height: auto;display: block;content: "";float: left}
+    .cisco_more .more_head h2{font-size: 25px;}
+    .android_lesson .con{width: 100%;}
+    .android_lesson .dowm .container .item{margin-bottom: 15px;}
+    .android_first .container .col-md-6 img{width: 60%}
+    .android_first .container .col-md-6{margin-bottom: 15px;}
+    .android_lesson .dowm h2{padding: 15px 0 15px;font-size: 25px;}
+    .android_lesson .btm,.android_first .btm{margin: 15px 0;}
+    .android_lesson h2,.android_first h2{font-size: 25px;}
+    .android_first h2{margin: 15px;}
+}
+@media all and (max-width: 760px) {
+    .cisco_more{padding-bottom: 10px;}
+    .android_lesson .con{width: 90%;margin: auto;text-align: center}
+    .android_lesson .con h3{line-height: 36px;font-size: 18px;}
+    .android_lesson .con p{font-size: 14px;line-height: 22px;text-align: left}
+    .android_lesson .con .left{display: none}
+    .android_lesson .con .right{width: 96%;}
+    .android_lesson .con ul li{font-size: 16px;text-align: left}
+    .java_lesson .ma_200{margin-left: 0}
+    .evaluate h2,.android_lesson h2{font-size: 18px;}
+    .android_lesson .dowm h2,.android_first h2{font-size: 18px;}
+    .android_lesson .title{font-size: 16px;line-height: 20px;padding-left: 15px;padding-right: 15px;}
+}
+@media all and (max-width: 515px) {
+    .android_lesson h2{padding-top: 15px;}
+    .java_table h2,.java_table h2 small{font-size: 18px;}
+    .java_table p{font-size: 14px;}
+    .java_lesson .java_task .right p{display: none}
+    .java_lesson .java_task .right h3{text-align: center}
+    .java_lesson h2,.java_lesson h2 small,.teacher h2,.evaluate-from h2,.java_home h2,.java_h1 h1{font-size: 18px;padding: 10px 0 5px}
+    .java_lesson p.small,.teacher .small-h,.evaluate-from .small_h,.java_home .small_h,.java_h1 p{font-size: 14px;line-height: 28px;}
+    .call_teach{margin-top: 10px;}
+    .teacher{padding-bottom: 10px;}
+    .mr_200{margin-left: 0;margin-top: 10px;}
+    .java_h1{height: 66px;}
+    .table_header{font-size: 12px;}
+    .animate{height: 240px;}
+    .table_header .name, .table_header .eudecation, .table_header .money{width: 22%}
+    .table_header .company{width: 34%;}
+    .java_table .name,.java_table .eudecation{width: 22%}
+    .java_table .money{width: 22%;}
+    .java_table .company{width: 34%;}
+    .oracle_huanjing h2{font-size: 18px;}
+    .oracle_huanjing .title,.oracle_more .more_head .title{font-size: 16px;line-height: 40px;}
+    .oracle_huanjing .container .col-xs-6{padding: 0 5px;}
+    .oracle_huanjing .container .item{margin-bottom: 8px;}
+    .cisco_more{display: block}
+    .cisco_more .more_head .title{font-size: 16px;line-height: 40px;}
+    .cisco_more .more_head h2{font-size: 18px;padding-top: 20px;}
+    .cisco_more .more_head{height: 90px;}
+    .cisco_more{height: auto;}
+    .cisco_more .con{padding-bottom: 10px;overflow: hidden}
+    .java_lesson .ma_200{margin-top: 15px;}
+    .android_lesson .dowm .container .item i{margin: 20px auto;}
+    .android_lesson .dowm .container .item span{font-size: 12px;}
+    .android_lesson .dowm .container .col-md-3{padding: 0 10px;}
+    .android_lesson .dowm .container .item{width: 100%;min-height: 250px;}
+    .android_first .container .col-md-6 img{width: 86%;}
+    .android_lesson .btm a{width: 200px;line-height: 30px;font-weight: normal;background: #ff4d4d;border-radius: 5px;font-size: 16px;}
+    .call_teach a{width: 200px;height: 30px;line-height: 30px;font-weight: normal;background:#ff4d4d;border-radius: 5px;font-size: 16px;}
+    .android_first .btm a,.oracle_huanjing .btm a,.android_tree .btm a{width: 200px;line-height: 30px;font-weight: normal;background: #7ce536;border-radius: 5px;font-size: 16px;}
+    .android_tree h2{line-height: 60px;font-size: 18px;}
+}

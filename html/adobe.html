@@ -1,0 +1,784 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>万和it教育学院</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/swiper-3.4.1.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/adobe.css">
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/swiper.jquery.min.js"></script>
+    <script src="../js/mobile.js"></script>
+    <script>
+        window.onload=function () {
+            var mySwiper = new Swiper ('.ui_banner', {
+                autoplay: 5000,
+                loop : true
+            });
+            var mIcon=document.querySelector('.icon');
+            var mNav=document.querySelector('.m_nav');
+            var mOne=document.querySelector('.m_f_one');
+            var mTwo=document.querySelector('.m_f_two');
+            var oOne=document.querySelector('.m_foot_one');
+            var oTwo=document.querySelector('.m_foot_two');
+            touchEvent.tap(mIcon,function () {
+                if (mIcon.className=="icon"){
+                    mNav.className+=' show';
+                    mIcon.className+=' close';
+                }else{
+                    mNav.className="m_nav";
+                    mIcon.className="icon";
+                }
+            });
+            touchEvent.tap(mOne,function () {
+                if (oOne.className=="m_foot_one"){
+                    oOne.className+=" m_auto";
+                    $(oOne).height($(oOne).children().length*20+'px');
+                }else{
+                    oOne.className="m_foot_one";
+                    $(oOne).height(0);
+                }
+            });
+            touchEvent.tap(mTwo,function () {
+                if (oTwo.className=="m_foot_two"){
+                    oTwo.className+=" m_auto";
+                    $(oTwo).height($(oTwo).children().length*20+'px');
+                }else{
+                    oTwo.className="m_foot_two";
+                    $(oTwo).height(0);
+                }
+            });
+            touchEvent.tap($(".friend")[0],function () {
+                if ($(".friend")[0].className=="friend col-md-10"){
+                    $(".friend")[0].className+=" m_auto";
+                    $(".friend").height(($(".friend").children().length*20)+'px');
+                }else{
+                    $(".friend")[0].className="friend col-md-10";
+                    $(".friend").height("36px");
+                }
+            });
+            touchEvent.tap($(".m_ewm")[0],function () {
+                if ($(".mobile_ewm")[0].className=="mobile_ewm col-xs-12"){
+                    $(".mobile_ewm")[0].className+=" m_auto";
+                    $(".mobile_ewm").height(215+'px');
+                }else{
+                    $(".mobile_ewm")[0].className="mobile_ewm col-xs-12";
+                    $(".mobile_ewm").height("36px");
+                }
+            });
+            $(".need_content .item p").mouseenter(function () {
+                $(".need_content .item p").removeClass('on');
+                $(this).addClass('on');
+            })
+        }
+    </script>
+
+
+<!-- m.wanho.org Baidu tongji analytics -->
+<!-- wanho.org Baidu tongji analytics -->
+<script>
+var _hmt = _hmt || [];
+(function() {
+var hm = document.createElement("script");
+hm.src = "https://hm.baidu.com/hm.js?5b6c8b93793cb5c6fafa7dc2d87edc8e";
+var s = document.getElementsByTagName("script")[0];
+s.parentNode.insertBefore(hm, s);
+})();
+</script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+var hm = document.createElement("script");
+hm.src = "https://hm.baidu.com/hm.js?0c4b80e0ebb15ab9bb4b4c02e3d739c2";
+var s = document.getElementsByTagName("script")[0];
+s.parentNode.insertBefore(hm, s);
+})();
+</script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+var hm = document.createElement("script");
+hm.src = "https://hm.baidu.com/hm.js?e8aecc0a7978b919e0352416208bb334";
+var s = document.getElementsByTagName("script")[0];
+s.parentNode.insertBefore(hm, s);
+})();
+</script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+var hm = document.createElement("script");
+hm.src = "https://hm.baidu.com/hm.js?f1fba78cca2f7bdf39d5e5659e5ce566";
+var s = document.getElementsByTagName("script")[0];
+s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</head>
+<body class="index">
+<!--头部-->
+<div class="container header">
+    <div class="logo">
+        <img src="../img/logo.png" alt="logo"/>
+    </div>
+    <div class="tel">
+        <em class="call_logo"></em>
+        <i>咨询热线:</i>
+        <span>400-100-1100</span>
+    </div>
+    <div class="title">
+        <span></span>
+        <span class="right"></span>
+        <p class="china">誉满二十四载 领跑长三角</p>
+        <p class="english">IN TWENTY-FOUR YEARS, LEADING THE YANGTZE RIVER DELTA.</p>
+    </div>
+</div>
+<div class="mobile visible-xs visible-sm">
+    <div class="icon">
+
+    </div>
+    <div class="m_logo">
+        <img src="../img/m_logo.png" alt="">
+    </div>
+    <div class="m_call">
+
+    </div>
+    <ul class="m_nav">
+        <li><a href="">企业培训</a></li>
+        <li><a href="">院校合作</a></li>
+        <li><a href="">考试中心</a></li>
+        <li><a href="">立即申请</a></li>
+        <li><a href="">下载中心</a></li>
+        <li><a href="">联系我们</a></li>
+        <li></li>
+    </ul>
+</div>
+<!--nav-->
+<div class="container-fluid nav">
+    <ul class="nav_bar container">
+        <li>
+            <ul class="nav-left">
+                <li><a href="">新手指南</a></li>
+            </ul>
+        </li>
+        <li><a href="" class="on">首页</a></li>
+        <li><a href="">企业培训</a></li>
+        <li><a href="">院校合作</a></li>
+        <li><a href="">考试中心</a></li>
+        <li><a href="">立即申请</a></li>
+        <li><a href="">下载中心</a></li>
+        <li><a href="">联系我们</a></li>
+    </ul>
+</div>
+<!--banner-->
+<div class="ui_banner swiper-container">
+    <div class="banner_header">
+    </div>
+    <div class="swiper-wrapper">
+        <div class="swiper-slide">
+            <div class="ui_banner_bg"></div>
+            <img src="../img/adobe_banner.png" alt="banner">
+        </div>
+        <div class="swiper-slide">
+            <div class="ui_banner_bg"></div>
+            <img src="../img/adobe_banner.png" alt="banner">
+        </div>
+        <div class="swiper-slide">
+            <div class="ui_banner_bg"></div>
+            <img src="../img/adobe_banner.png" alt="banner">
+        </div>
+    </div>
+</div>
+<!--ui_作品-->
+<div class="ui_works">
+    <h1 class="u_h1">
+
+    </h1>
+    <div class="title">
+        <p class="subtitle">
+            来<span>万和4个月</span>，你就能<span>拿出让人刮目相看的作品</span>
+        </p>
+        <p class="smalltitle">
+            4个月的作品完胜工作2年的设计师
+        </p>
+    </div>
+    <div class="adobe_works">
+        <img src="../img/adobe_list01.png" alt="" class="w-212 left mar">
+        <img src="../img/adobe_list02.png" alt="" class="w-212">
+        <img src="../img/adobe_list04.png" alt="" class="w-223 pos">
+        <img src="../img/adobe_list03.png" alt="" class="w-223 post">
+        <img src="../img/adobe_list05.png" alt="" class="w-475 right hidel">
+        <img src="../img/adobe_list06.png" alt="" class="left hidel">
+        <img src="../img/adobe_list07.png" alt="" class="right hidel">
+    </div>
+</div>
+<!--ui_teach-->
+<div class="ui_teach">
+    <h1></h1>
+    <div class="con">
+        <p class="need_title">
+            我们的课程体系是最贴近企业需求的
+        </p>
+        <div class="need_content">
+            <div class="item">
+                <p>
+                    <img src="../img/web.png" alt="">
+                    <b>
+                        网站设计与开发
+                    </b>
+                    <a>
+                        查看课程详情
+                    </a>
+                </p>
+            </div>
+            <div class="item">
+                <p class="on">
+                    <img src="../img/text.png" alt="">
+                    <b>
+                        平面创意设计
+                    </b>
+                    <a>
+                        查看课程详情
+                    </a>
+                </p>
+            </div>
+            <div class="item">
+                <p>
+                    <img src="../img/video.png" alt="">
+                    <b>
+                        影视后期
+                    </b>
+                    <a>
+                        查看课程详情
+                    </a>
+                </p>
+            </div>
+        </div>
+        <p class="title">
+            专业的导师及服务团队，带你走进UI职场
+        </p>
+        <p class="subtitle">
+            集结行业大牛，培养与众不同的设计人才
+        </p>
+        <div class="teach-wapper teacher container">
+            <div class="swiper-container-teacher swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="item">
+                            <img src="../img/photo_img01.png" alt="">
+                            <span class="name">方国平</span>
+                            <span class="job">Adobe认证讲师</span>
+                            <span class="age">八年游戏设计开发经验</span>
+                            <span class="project">参与项目</span>
+                            <span class="list">
+                            <cite>&lt;&lt;梦幻国度&gt;&gt;</cite>
+                            <cite>&lt;&lt;英雄年代&gt;&gt;</cite>
+                            <cite>&lt;&lt;星球大战&gt;&gt;</cite>
+                            <cite>&lt;&lt;龙与地下城&gt;&gt;</cite>
+                        </span>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="item">
+                            <img src="../img/photo_img01.png" alt="">
+                            <span class="name">方国平</span>
+                            <span class="job">Adobe认证讲师</span>
+                            <span class="age">八年游戏设计开发经验</span>
+                            <span class="project">参与项目</span>
+                            <span class="list">
+                            <cite>&lt;&lt;梦幻国度&gt;&gt;</cite>
+                            <cite>&lt;&lt;英雄年代&gt;&gt;</cite>
+                            <cite>&lt;&lt;星球大战&gt;&gt;</cite>
+                            <cite>&lt;&lt;龙与地下城&gt;&gt;</cite>
+                        </span>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="item">
+                            <img src="../img/photo_img01.png" alt="">
+                            <span class="name">方国平</span>
+                            <span class="job">Adobe认证讲师</span>
+                            <span class="age">八年游戏设计开发经验</span>
+                            <span class="project">参与项目</span>
+                            <span class="list">
+                            <cite>&lt;&lt;梦幻国度&gt;&gt;</cite>
+                            <cite>&lt;&lt;英雄年代&gt;&gt;</cite>
+                            <cite>&lt;&lt;星球大战&gt;&gt;</cite>
+                            <cite>&lt;&lt;龙与地下城&gt;&gt;</cite>
+                        </span>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="item">
+                            <img src="../img/photo_img01.png" alt="">
+                            <span class="name">方国平</span>
+                            <span class="job">Adobe认证讲师</span>
+                            <span class="age">八年游戏设计开发经验</span>
+                            <span class="project">参与项目</span>
+                            <span class="list">
+                            <cite>&lt;&lt;梦幻国度&gt;&gt;</cite>
+                            <cite>&lt;&lt;英雄年代&gt;&gt;</cite>
+                            <cite>&lt;&lt;星球大战&gt;&gt;</cite>
+                            <cite>&lt;&lt;龙与地下城&gt;&gt;</cite>
+                        </span>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="item">
+                            <img src="../img/photo_img01.png" alt="">
+                            <span class="name">方国平</span>
+                            <span class="job">Adobe认证讲师</span>
+                            <span class="age">八年游戏设计开发经验</span>
+                            <span class="project">参与项目</span>
+                            <span class="list">
+                            <cite>&lt;&lt;梦幻国度&gt;&gt;</cite>
+                            <cite>&lt;&lt;英雄年代&gt;&gt;</cite>
+                            <cite>&lt;&lt;星球大战&gt;&gt;</cite>
+                            <cite>&lt;&lt;龙与地下城&gt;&gt;</cite>
+                        </span>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="item">
+                            <img src="../img/photo_img01.png" alt="">
+                            <span class="name">方国平</span>
+                            <span class="job">Adobe认证讲师</span>
+                            <span class="age">八年游戏设计开发经验</span>
+                            <span class="project">参与项目</span>
+                            <span class="list">
+                            <cite>&lt;&lt;梦幻国度&gt;&gt;</cite>
+                            <cite>&lt;&lt;英雄年代&gt;&gt;</cite>
+                            <cite>&lt;&lt;星球大战&gt;&gt;</cite>
+                            <cite>&lt;&lt;龙与地下城&gt;&gt;</cite>
+                        </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-prev teach-prev swiper-button-prev-teach"></div>
+            <div class="swiper-button-next teach-next swiper-button-next-teach"></div>
+        </div>
+        <p class="btm">
+            <a href="">提前认识老师</a>
+        </p>
+    </div>
+</div>
+<!--选择我们-->
+<div class="ui_choose" id="ui_choose">
+    <p class="title">
+        看看这里是否有你的影子
+    </p>
+    <div class="adobe_has">
+        <div class="item">
+            <h4>
+                在校学生
+            </h4>
+            <p>
+                在校期间以理论知识为主，实践过程障碍重重。即将步入社会，却缺少一门就业技能，在江苏万和，不但学技能，还可以推荐就业！
+            </p>
+        </div>
+        <div class="item">
+            <h4>
+                设计爱好者
+            </h4>
+            <p>
+                总是羡慕网络上看到的广告图，自己也好想亲自动手制作，但技术有限。我们帮你提高PS水平，实现菜鸟到大神的完美蜕变。
+            </p>
+        </div>
+        <div class="item">
+            <h4>
+                提升技能人群
+            </h4>
+            <p>
+                技能等级不够高，升职加薪遥遥无望。来江苏万和参加Adobe培训，带你飞！
+            </p>
+        </div>
+        <div class="item">
+            <h4>
+                0基础或转行人群
+            </h4>
+            <p>
+                江苏万和师资雄厚，教学讲练结合，易学易懂，成就了无数零基础学员！
+            </p>
+        </div>
+    </div>
+    <p class="btm">
+        <a href="">我适合做设计师么？</a>
+    </p>
+    <p class="title mod_none">
+        进阶课程
+    </p>
+    <p class="small_title">
+        更上一层楼——UI设计师
+    </p>
+    <p>
+        <img src="../img/adobe_p.png" alt="" style="margin:0 auto;display: block;padding: 30px 0;width: 100%;max-width: 812px;">
+    </p>
+    <p class="btm">
+        <a href="">更多热门岗位</a>
+    </p>
+    <p class="title pa_20">
+        为什么选择我们更“靠谱”
+    </p>
+    <div class="char">
+        <p class="left">
+            <img src="../img/ui_photo.png" alt="">
+            <span>
+                <em></em>
+                我们是Adobe官方认证机构，培训更靠谱
+            </span>
+        </p>
+        <p class="right">
+            <img src="../img/ui_photo.png" alt="">
+            <span>
+                <em></em>
+                零首付入学，培训后付款
+            </span>
+        </p>
+        <p class="left">
+            <img src="../img/ui_photo.png" alt="">
+            <span>
+                <em></em>
+                万和全苹果机iMac授课，鼓楼市中心，交通便利
+            </span>
+        </p>
+        <p class="right">
+            <img src="../img/ui_photo.png" alt="">
+            <span class="lin2 lin3">
+                <em></em>
+                星光闪耀的师资团队，平均10年以上一线行业工作经验，海量项目实战与饱满教学，平均授课时间超过8000课时。
+            </span>
+        </p>
+        <p class="left">
+            <img src="../img/ui_photo.png" alt="">
+            <span class="lin2">
+                <em></em>
+                全国就业网络，就业指导中心与2000家企业建立人才合作关系，免费为学员提供就业服务
+            </span>
+        </p>
+    </div>
+    <!--来自万和-->
+    <div class="evaluate-from">
+        <h2>他们都来自<span>江苏万和</span>，听听他们怎么说</h2>
+        <p class="small_h">学员心声：选择万和，相信万和</p>
+        <div class="evaluate-wapper">
+            <div class="swiper-container-evaluate swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="item">
+                            <img src="../img/img08.jpg" alt="">
+                            <h3>张义—学习Java目前就职于中兴</h3>
+                            <p>
+                                每个教室的通风、照明、布线都需要经过精心处理，我们花费大量时间去完善细节，都只是确保你能在专业、舒适、安心的环境下学习，你所追求的梦想，值得我们尽心去呵护。
+                            </p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="item">
+                            <img src="../img/img09.jpg" alt="">
+                            <h3>顾思明—学习Java目前就职于集群科技</h3>
+                            <p>
+                                每个教室的通风、照明、布线都需要经过精心处理，我们花费大量时间去完善细节，都只是确保你能在专业、舒适、安心的环境下学习，你所追求的梦想，值得我们尽心去呵护。
+                            </p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="item">
+                            <img src="../img/img08.jpg" alt="">
+                            <h3>任旭—学习游戏开发目前就职于朗睿科技</h3>
+                            <p>
+                                每个教室的通风、照明、布线都需要经过精心处理，我们花费大量时间去完善细节，都只是确保你能在专业、舒适、安心的环境下学习，你所追求的梦想，值得我们尽心去呵护。
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-prev teach-prev swiper-button-prev-e"></div>
+            <div class="swiper-button-next teach-next swiper-button-next-e"></div>
+        </div>
+        <p class="btm">
+            <a href="">查看更多记录</a>
+            <a href=""class="mr_200">我也要蜕变</a>
+        </p>
+    </div>
+    <p class="title mod_none">
+        我们的环境是这样的
+    </p>
+    <p class="small_title adobe_mar">
+        来江苏万和，感受青春的活力和梦想
+    </p>
+    <div class="container img_list">
+        <div class="row">
+            <div class="col-md-4 col-xs-6">
+                <img src="../img/ui_choose_img1.png" alt="">
+            </div>
+            <div class="col-md-4 col-xs-6">
+                <img src="../img/ui_choose_img2.png" alt="">
+            </div>
+            <div class="col-md-4 col-xs-6">
+                <img src="../img/ui_choose_img3.png" alt="">
+            </div>
+            <div class="col-md-4 col-xs-6">
+                <img src="../img/ui_choose_img4.png" alt="">
+            </div>
+            <div class="col-md-4 col-xs-6">
+                <img src="../img/ui_choose_img5.png" alt="">
+            </div>
+            <div class="col-md-4 col-xs-6">
+                <img src="../img/ui_choose_img6.png" alt="">
+            </div>
+        </div>
+    </div>
+    <p class="btm">
+        <a href="">预约报名参观</a>
+    </p>
+</div>
+<!--动态新闻-->
+<div class="index-news container">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="right">
+                <h2>
+                    <small>中心动态</small>
+                    <a href="">查看更多&gt;&gt;</a>
+                </h2>
+                <ul>
+                    <li>
+                        <p class="news_h">中心新闻-行业动态-就业喜报</p>
+                        <p>
+                            <img src="../img/img01.png" alt="" class="img">
+                            <em class="h1">欢乐24周年，这个冬天，我们来约个惠吧！</em>
+                            <span>
+                                24年，江苏万和风雨兼程，感恩有你！即日起至2016年12月31日起，万和感恩回馈精彩来袭，2016年最后一次哦！
+                                绝对是你不容错过的感恩盛会！
+                            </span>
+                            <a href="">查看详情</a>
+                        </p>
+                    </li>
+                    <li>
+                        <a href="">[中心新闻]</a>
+                        <a href="" class="center">圣诞平安节我们这样过，你呢</a>
+                        <span class="right">2016-12-26</span>
+                    </li>
+                    <li>
+                        <a href="">[中心新闻]</a>
+                        <a href="" class="center">圣诞平安节我们这样过，你呢</a>
+                        <span class="right">2016-12-26</span>
+                    </li>
+                    <li>
+                        <a href="">[中心新闻]</a>
+                        <a href="" class="center">圣诞平安节我们这样过圣诞平安节我们这样过圣诞平安节我们这样过，你呢</a>
+                        <span class="right">2016-12-26</span>
+                    </li>
+                    <li>
+                        <a href="">[中心新闻]</a>
+                        <a href="" class="center">圣诞平安节我们这样过，你呢</a>
+                        <span class="right">2016-12-26</span>
+                    </li>
+                    <li>
+                        <a href="">[中心新闻]</a>
+                        <a href="" class="center">圣诞平安节我们这样过，你呢</a>
+                        <span class="right">2016-12-26</span>
+                    </li>
+                    <li>
+                        <a href="">[中心新闻]</a>
+                        <a href="" class="center">圣诞平安节我们这样过，你呢</a>
+                        <span class="right">2016-12-26</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="right">
+                <h2>
+                    <small>中心动态</small>
+                    <a href="">查看更多&gt;&gt;</a>
+                </h2>
+                <ul>
+                    <li>
+                        <p class="news_h">中心新闻-行业动态-就业喜报</p>
+                        <p>
+                            <img src="../img/img02.png" alt="" class="img">
+                            <em class="h1">欢乐24周年，这个冬天，我们来约个惠吧！</em>
+                            <span>
+                                24年，江苏万和风雨兼程，感恩有你！即日起至2016年12月31日起，万和感恩回馈精彩来袭，2016年最后一次哦！
+                                绝对是你不容错过的感恩盛会！
+                            </span>
+                            <a href="">查看详情</a>
+                        </p>
+                    </li>
+                    <li>
+                        <a href="">[中心新闻]</a>
+                        <a href="" class="center">圣诞平安节我们这样过，你呢</a>
+                        <span class="right">2016-12-26</span>
+                    </li>
+                    <li>
+                        <a href="">[中心新闻]</a>
+                        <a href="" class="center">圣诞平安节我们这样过，你呢</a>
+                        <span class="right">2016-12-26</span>
+                    </li>
+                    <li>
+                        <a href="">[中心新闻]</a>
+                        <a href="" class="center">圣诞平安节我们这样过圣诞平安节我们这样过圣诞平安节我们这样过，你呢</a>
+                        <span class="right">2016-12-26</span>
+                    </li>
+                    <li>
+                        <a href="">[中心新闻]</a>
+                        <a href="" class="center">圣诞平安节我们这样过，你呢</a>
+                        <span class="right">2016-12-26</span>
+                    </li>
+                    <li>
+                        <a href="">[中心新闻]</a>
+                        <a href="" class="center">圣诞平安节我们这样过，你呢</a>
+                        <span class="right">2016-12-26</span>
+                    </li>
+                    <li>
+                        <a href="">[中心新闻]</a>
+                        <a href="" class="center">圣诞平安节我们这样过，你呢</a>
+                        <span class="right">2016-12-26</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!--版权尾部-->
+<div class="footer container-fluid">
+    <div class="con container">
+        <div class="row">
+            <div class="left col-md-5 col-sm-12">
+                <h2 class="m_f_one">
+                    <span>报名方式</span>
+                    <img src="../img/jia.png" class="jia hidd">
+                </h2>
+                <ul class="m_foot_one">
+                    <li>
+                        <span class="name">联系电话:</span>
+                        <span class="value">025-68592555</span>
+                        <span class="value">400-110-1100</span>
+                    </li>
+                    <li>
+                        <span class="name">微信公众号:</span>
+                        <span class="value">wanho1993</span>
+                    </li>
+                    <li>
+                        <p>通过扫描二维码关注报名，根据顺序安排位置</p>
+                    </li>
+                </ul>
+                <div class="hig"></div>
+            </div>
+            <div class="right col-md-5 col-sm-12">
+                <h2 class="m_f_two"><span>上课地址</span>
+                    <img src="../img/jia.png" class="jia inline-top">
+                </h2>
+                <ul class="m_foot_two">
+                    <li>
+                        <span class="name">上课地址：</span>
+                        <span class="value">南京市中山北路26号新晨国际大厦23、24层</span>
+                    </li>
+                    <li>
+                        <span class="name">交通信息：</span>
+                        <span class="value">地铁一号线鼓楼站4A出口</span>
+                    </li>
+                    <li>
+                        <p>如有不清楚的地方请拨打我们的客户热线</p>
+                    </li>
+                </ul>
+                <div class="hig"></div>
+            </div>
+            <div class="col-md-2 ewm">
+                <img src="../img/ewm.png" alt="">
+                <span>万和微信公众号</span>
+            </div>
+        </div>
+        <dl class="friend col-md-10">
+            <dt class="inline">友情链接
+                <img src="../img/jia.png" class="jia hidd">
+                <span class="hidee">:</span>
+            </dt>
+            <dd class="first">华为认证培训</dd>
+            <dd>西安北大青鸟</dd>
+            <dd>嘉为IT培训</dd>
+            <dd>Java1234</dd>
+            <dd>鸿鹄论坛</dd>
+            <dd>华清安卓开发培训</dd>
+            <dd>CCNA</dd>
+            <dd>南京Java培训</dd>
+            <dd>Java开发学习</dd>
+            <dd>潍坊雅思培训</dd>
+            <dd>中国成人教育</dd>
+            <dd>华为</dd>
+            <dd>Oracle</dd>
+            <dd>Redhat</dd>
+            <dd>java开发培训</dd>
+            <div class="hig"></div>
+        </dl>
+
+    </div>
+    <div class="mobile_ewm col-xs-12">
+        <strong class="m_ewm">二维码 <img src="../img/jia.png" class="jia"></strong>
+        <img src="../img/ewm.png" alt="" class="patop">
+        <span>万和微信公众号</span>
+    </div>
+    <div class="address">
+        江苏万和计算机培训中心&copy;版权所有 苏ICP备11034309号-1
+    </div>
+</div>
+<div class="ui_moblie">
+    <div class="ui_phone_bg">
+        <h1 class="ui_phone_header">
+            <b class="um_h1"></b>
+            <img src="../img/ui_close.png" alt="close" class="close">
+        </h1>
+    </div>
+    <h2>美学基础</h2>
+    <p class="esthetics">
+
+    </p>
+    <h2>软件基础</h2>
+    <p class="software">
+
+    </p>
+</div>
+</body>
+<script>
+    function SS(a,b) {
+        var myTeacher = new Swiper ('.swiper-container-teacher', {
+            autoplay: 5000,
+            prevButton:'.swiper-button-prev-teach',
+            nextButton:'.swiper-button-next-teach',
+            paginationClickable :true,
+            loop : true,
+            slidesPerView : a,
+        });
+        var myEvaluate = new Swiper ('.swiper-container-evaluate', {
+            autoplay: 5000,
+            prevButton:'.swiper-button-prev-e',
+            paginationClickable :true,
+            nextButton:'.swiper-button-next-e',
+            loop : true,
+            slidesPerView : b,
+        });
+    }
+    (function () {
+        var width=$('body').width();
+        if(width<996 && width>760){
+            SS(3,2)
+        }else if(width>996) {
+            SS(4,3)
+        }else {
+            SS(2,1)
+        }
+    })();
+    $(window).resize(function () {
+        var width=$('body').width();
+        if(width<996 && width>760){
+            SS(3,2)
+        }else if(width>996) {
+            SS(4,3)
+        }else {
+            SS(2,1)
+        }
+    })
+</script>
+</html>

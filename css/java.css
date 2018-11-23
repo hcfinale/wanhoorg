@@ -1,0 +1,250 @@
+.nav{margin-bottom: 0;}
+.index-banner{height: 630px;}
+.banner-img{background: transparent url("../img/java_banner.jpg") no-repeat scroll top center}
+.evaluate-wapper{margin: auto;}
+.evaluate{background: transparent url("../img/java_04.jpg") no-repeat scroll top center;width: 100%;height: 630px}
+.evaluate h2{color: #fff;font-size: 32px;margin: 53px auto 18px;}
+.evaluate .java_small{font-size: 20px;color: #fff;text-align: center;margin-bottom: 40px;}
+.java_table{width: 1200px;padding:0 0 70px 0;position: relative;}
+.java_table h2{font-size: 32px;color: #333;text-align: center;font-weight: bold;padding: 40px 0 5px;}
+.java_table h2 small{font-size: 32px;color: #f04848;font-weight: bold;}
+.java_table p{font-size: 18px;color: #666666;text-align: center;padding-bottom: 20px;line-height: 70px;}
+.java_table table{width: 100%;border-collapse:collapse;border: 0;position: absolute;top: 40px;left: 0;}
+.java_table table tr th{background-color: #f04848;color: #fff;font-weight: normal;text-align: center;height: 40px;line-height: 40px;}
+.java_table .name,.java_table .job,.java_table .eudecation,.java_table .money{width: 160px;}
+.java_table .school{width: 260px;}
+.java_table .company{width: 280px}
+.java_table table tr td{text-align: center;line-height: 40px;font-size: 14px;color: #333333;}
+.java_table table tr td:last-child{color: #f04848}
+.java_table table tr.one td{background-color: #fafafa;}
+.java_table table tr.two td{background-color: #f5f5f5;}
+.animate{position: relative;width: 1200px;margin: auto;height: 520px;overflow: hidden;font-size: 14px;}
+.table_header{position: absolute;top: 0;left: 0;width: 1200px;background-color: #f04848;z-index: 333;}
+.table_header div{line-height: 40px;height: 40px;color: #fff;text-align: center;float: left}
+.table_header .name,.table_header .job,.table_header .eudecation,.table_header .money{width: 160px;}
+.table_header .school{width: 260px;}
+.table_header .company{width: 300px}
+
+.java_lesson{padding:0 0 70px 0;border: 0;height: 850px;background-color: #f8f8f8;}
+.java_lesson h2{font-size: 32px;color: #333;text-align: center;font-weight: bold;padding: 40px 0 5px;}
+.java_lesson h2 small{font-size: 32px;color: #f04848;font-weight: bold}
+.java_lesson p.small{font-size: 18px;color: #666666;text-align: center;padding-bottom: 20px;line-height: 70px;}
+.java_lesson p.small:after{content: "";display: block;width: 100%;height: auto;border-bottom: 1px solid #dbdbdb;}
+.java_lesson .java_task{width: 1200px;margin: auto;position: relative}
+.java_lesson .java_task .right h3{font-size: 24px;color: #333333;margin-top: 50px;}
+.java_lesson .java_task .right .h3{margin-bottom: 6px;border-bottom: 2px solid #d6d6d6;padding-bottom: 15px;font-size: 20px;color: #333333;}
+.java_lesson .java_task .right .con{line-height: 24px;}
+.teach-prev{left: -30px;}
+.teach-next{right: -30px;}
+.java_lesson  .call_me{text-align: center;margin-top: 80px;}
+.java_lesson  .call_me a{display: inline-block;width: 200px;font-size: 18px;color: #fff;line-height: 32px;border-radius: 3px;background-color: #f04848}
+.teacher{height: 730px;background:transparent url("../img/java_06.jpg") no-repeat scroll top center;width: 100%}
+.teacher .teach-wapper{width: 1200px;margin: auto}
+.teacher .item{background-color: #fff;}
+.teacher .item .name{color: #f04848}
+.call_teach a{background-color: #f04848;color: #fff;border-radius: 5px;}
+.teacher h2{font-size: 30px;color: #fff;padding-top: 30px;}
+.teacher h2 span{color: #f04848}
+.teacher .small-h{margin-bottom: 0;line-height: 50px;padding-bottom: 20px;color: #fff;}
+.java_education{width: 1200px;padding: 0;}
+.java_education h1{font-size: 30px;color: #333333;text-align: center;padding-top: 50px;}
+.java_education h1 span{color: #f04848}
+.java_education .small_h{font-size: 20px;color: #666666;text-align: center;line-height: 80px;}
+.java_education table{width: 1200px;border-collapse:collapse;}
+.java_education table tr th{font-size: 18px;color: #fff;background-color: #f04848;text-align: center;line-height: 40px;}
+.java_education table tr th.lesson{width: 290px;}
+.java_education table tr th.lesson_once{width: 740px;}
+.java_education table tr th.more{width: 170px;}
+.java_education table tr span.hh,.java_education table tr span.explain{display: inline-block;width: 100%;text-align: center}
+.java_education table tr td{padding: 25px 10px;border: 4px solid #f8f8f8}
+.java_education table tr td.java_more{border-right: 0;text-align: center}
+.java_education table tr td.java_more a{color: #2178e2;}
+.java_education table tr td.td1{border-left: 0;}
+.java_education table tr:last-child td{border-bottom: 0;}
+.java_chart{width: 1200px;}
+.java_chart .row span{display: inline-block;width: 100%;line-height: 40px;text-align: center}
+.java_chart h1{font-size: 30px;color: #333333;text-align: center;margin-top: 40px;}
+.java_chart h1 span{color: #f04848;}
+.java_chart .small_h{font-size: 20px;color: #666666;line-height: 60px;text-align: center}
+.java_chart .call_me{text-align: center;margin-top: 44px;margin-bottom: 50px;}
+.java_chart .call_me a{width: 200px;height: 31px;line-height: 31px;color: #fff;text-align: center;background-color: #f04848;display: inline-block;border-radius: 3px;}
+.evaluate-from{height: 580px;background: transparent url("../img/java_08.jpg") no-repeat scroll top center;padding: 0;}
+.evaluate-from h2{font-size: 30px;text-align: center;margin-top: 40px;color: #fff;font-weight: bold}
+.evaluate-from span{color: #f04848;}
+.evaluate-from .small_h{font-size: 20px;color: #fff;line-height: 60px;text-align: center;margin-bottom: 10px;}
+.evaluate-from .item{width: 96%;background-color: #36395b;border-radius: 8px;margin: auto}
+.evaluate-from .item img{width: 100%;}
+.evaluate-from .item h3{text-align: center;color: #fff;font-size: 16px;line-height: 40px;}
+.evaluate-from .item p{font-size: 14px;color: #fff;line-height: 26px;padding:  0 18px 10px;}
+.evaluate-from .btm{text-align: center;margin-top: 40px;}
+.evaluate-from .btm a{width: 200px;text-align: center;line-height: 32px;color: #fff;background-color: #f04848;display: inline-block;border-radius: 5px;}
+.java_home{background-color: #f8f8f8;text-align: center}
+.java_home h2{font-size: 30px;font-weight: bold;color: #f04848;margin-top: 30px;line-height: 50px;}
+.java_home .small_h{font-size: 20px;color: #666666;line-height: 34px;}
+.java_home .container{width: 1200px}
+.java_home .row{margin-top: 50px;}
+.java_home .row .col-two {width: 20%;float: left;}
+.java_home .row .col-two .item{width: 210px;text-align: center;background-color: #fff;min-height: 310px;}
+.java_home .row .col-two .item img{margin-top: 50px;}
+.java_home .row .col-two .item i{display: inline-block;width: 100%;line-height: 36px;color: #333333;font-size: 16px;font-style: normal;margin-top: 25px;}
+.java_home .row .col-two .item span{font-size: 14px;color: #b0b0b0;padding: 0 7px;}
+.java_home .call_me{text-align: center;margin: 70px auto;}
+.java_home .call_me a{width: 300px;text-align: center;line-height: 32px;color: #fff;background-color: #f04848;font-size: 18px;display: inline-block;border-radius: 3px;}
+.java_honor{background: transparent url("../img/java_10.jpg") scroll no-repeat top center;height: 700px;}
+.honor .item{width: 94%;margin: auto;border: 1px solid #5c5c5e}
+.honor h2{color: #fff;font-size: 30px;margin:70px auto;}
+.honor span{color: #fff;font-size: 16px;line-height: 34px;}
+.honor img{width: 92%;margin: 10px auto 0;}
+.java_h1{height: 150px;text-align: center;padding: 0;box-shadow: 0 5px 10px #efefef;}
+.java_h1 h1{font-size: 30px;padding-top: 36px;}
+.java_h1 h1 span{color: #f04848;}
+.java_h1 p{color: #666666;line-height: 60px;font-size: 20px;}
+.java_success{text-align: center;margin-bottom: 100px;}
+.java_success img{display: block;margin: 0 auto}
+.java_success a{display: block;height: 240px;border: 7px solid #fff;width: 260px;background-color: #f48b11;color: #fff;box-shadow: 0 5px 10px #efefef;}
+.java_success .hh1{display: inline-block;width: 100%;font-size: 30px;margin-top: 90px;}
+.java_success .con{display: inline-block;width: 100%;font-size: 16px;line-height: 20px;}
+.java_success .data{background-color: #12c1eb}
+.java_success .oracle{background-color: #e14040}
+.java_success .redhat{background-color: #e14040}
+.mr_200{margin-left: 220px;}
+.evaluate .item{width: auto}
+.mask{position: fixed;top:0;left: 0;height: 100%;width: 100%;z-index: 9999;display: none;}
+.mask .con{width: 1200px;height: 500px;position: absolute;z-index: 2;top:50%;left: 50%;transform: translate(-50%,-50%);background-color: #fff;}
+.mask .con h1{font-size: 20px;font-weight: bold;color: #fff;background-color: #f04848;text-indent: 20px;line-height: 50px;}
+.mask .con h1 img{float: right;margin-right: 20px;margin-top: 15px;cursor: pointer}
+.mask .con_header{line-height: 36px;color: #444444;text-align: center}
+.mask .con_header p{display: inline-block;margin-left: 40px;}
+.mask .con h2{font-size: 18px;color: #333333;line-height: 50px;padding-top: 10px;text-align: center}
+.mask .con ul{width: 60%;margin: auto;line-height: 50px;}
+.mask .mask_bg{background-color: #000;opacity: .3;filter: alpha(opacity=30);display: block;height: 100%;width: 100%;z-index: 1;position: absolute;top: 0;left: 0;}
+@media all and (max-width: 1300px) {
+    .teach-next{display: none}
+    .teach-prev{display: none}
+    .java_home{padding: 0;}
+}
+@media all and (max-width: 1200px) {
+    .index-banner{height: 530px;}
+    .java_table .name, .java_table .job, .java_table .eudecation, .java_table .money{width: 13.32%}
+    .java_table .school{width: 21.67%}
+    .java_table .company{width: 23.33%;}
+    .evaluate .item{width: 80%;}
+    .evaluate .item img{display: block;margin-left: 10%;}
+    .evaluate h2{margin: 30px auto 12px;}
+    .evaluate .java_small{margin-bottom: 20px;}
+    .java_lesson .java_task{width: 100%;}
+    .java_lesson .java_task .left img{width: 100%;}
+    .java_lesson .java_task .right .h3{padding-bottom: 5px;margin-bottom: 5px;margin-top: 10px;}
+    .java_lesson .java_task .right .con{line-height: 22px;font-size: 13px;}
+    .teacher .teach-wapper{width: 100%;}
+    .java_education table,.java_education,.java_home .container,.java_table{width: 100%;}
+    .java_education table tr th.lesson{width: 24.16%;}
+    .java_education table tr th.lesson_once{width: 61.66%;}
+    .java_education table tr th.more{width: 14.16%}
+    .java_chart{width: 100%;}
+    .java_chart img{width: 100%;}
+    .java_home .row .col-two .item{width: 90%;}
+    .java_success a{width: 100%;}
+    .honor span{font-size: 14px;}
+    .honor .col-md-3{padding: 0;}
+    .java_lesson  .call_me{margin-top: 50px;}
+    .java_lesson{height: 720px;}
+    .call_teach{margin: 30px auto 0;}
+    .teacher{height: 700px;}
+    .evaluate{height: auto;padding-bottom: 20px;}
+    .table_header .name, .table_header .job, .table_header .eudecation, .table_header .money{width: 13.32%}
+    .table_header .school{width: 21.67%}
+    .table_header .company{width: 23.33%;}
+    .java_table,.animate,.table_header{width: 100%;}
+}
+@media all and (max-width: 992px) {
+    body{overflow-x: hidden}
+    .index-banner{height: auto}
+    .java_table h2{padding: 10px 0 0;font-size: 24px;}
+    .java_table h2 small{font-size: 24px;}
+    .java_table p{font-size: 15px;padding-bottom: 0;line-height: 40px;}
+    .m_hide{display: none;}
+    .java_table .name{width: 15%}
+    .java_table .money{width: 20%;}
+    .java_table .school{width: 30%;}
+    .java_table .company{width: 35%;}
+    .java_table table{font-size: 13px;}
+    .java_table table tr td{font-size: 12px;}
+    .java_table table tr td{line-height: 30px;}
+    .java_table table tr th{line-height: 35px;height: 25px;}
+    .java_table{padding-bottom: 10px;}
+    .evaluate h2{font-size: 25px;margin: 10px auto}
+    .evaluate .java_small{font-size: 16px;}
+    .java_lesson h2{padding: 10px 0 5px;font-size: 25px;}
+    .java_lesson h2 small{font-size: 25px;}
+    .java_lesson p.small{padding-bottom: 0;line-height: 40px;font-size: 16px;}
+    .java_lesson .java_task .right h3{margin-top: 0;font-size: 22px;}
+    .java_lesson .java_task .right .h3{font-size: 17px;margin: 0;padding: 5px 0;}
+    .java_lesson .java_task .right .con{line-height: 20px;font-size: 12px;}
+    .java_lesson .java_task .left{text-align: center}
+    .java_lesson .java_task .left img{width: 65%;}
+    .java_lesson  .call_me{margin-top: 15px;}
+    .teacher h2{font-size: 25px;padding-top: 10px;margin-top: 0;}
+    .teacher .small-h{font-size: 16px;padding-bottom: 0;line-height: 40px;}
+    .teacher{height: auto;padding-bottom: 20px;}
+    .java_education h1{padding-top: 10px;font-size: 25px;}
+    .java_education .small_h{font-size: 16px;line-height: 40px;}
+    .java_education table tr td{padding: 10px}
+    .java_lesson{padding-bottom: 20px;height: auto}
+    .java_chart h1{margin-top: 10px;font-size: 25px;}
+    .java_chart .small_h{line-height: 40px;font-size: 16px;}
+    .java_chart{text-align: center}
+    .java_chart img{width: 85%}
+    .java_chart .call_me{margin: 5px auto 10px;}
+    .evaluate-from h2{margin-top: 10px;font-size: 25px;}
+    .evaluate-from .small_h{font-size: 16px;line-height: 40px;margin-bottom: 0;}
+    .evaluate-from .item img{width: 86%;display: block;margin: auto;padding-top: 20px;}
+    .mr_200{margin-left: 15px;}
+    .evaluate-from{height: auto;padding-bottom: 20px;}
+    .evaluate-from .btm{margin-top: 20px;}
+    .java_home h2{font-size: 25px;margin-top: 10px;line-height: 40px;}
+    .java_home .small_h{font-size: 16px;line-height: 26px;}
+    .java_home .row{margin-top: 10px;}
+    .java_home .row .col-two{width: 50%;margin-bottom: 20px;}
+    .java_home .row .col-two .item{margin: auto}
+    .java_home .row .col-two:last-child{width: 100%;padding: 0 15px;}
+    .java_home .row .col-two:last-child .item{width: 100%;}
+    .java_home .row .col-two .item img{margin-top: 25px;}
+    .java_home .row .col-two .item{min-height: 250px;}
+    .java_home .call_me{margin: 20px auto;}
+    .java_honor{height: auto;padding-bottom: 20px;background: transparent url("../img/java_10.jpg") scroll repeat top center}
+    .honor span{line-height: 20px;}
+    .honor h2{margin: 10px auto;font-size: 25px;}
+    .java_h1 h1{padding-top: 10px;font-size: 25px;}
+    .java_h1 p{line-height: 40px;font-size: 16px;}
+    .java_h1{height: 80px;}
+    .java_success img{display: none}
+    .java_success a{height: 160px;}
+    .java_success .hh1{margin-top: 30px;}
+    .java_success {padding-top: 20px;margin-bottom: 20px;}
+}
+@media all and (max-width: 515px) {
+    .java_table h2,.java_table h2 small{font-size: 18px;}
+    .java_table p{font-size: 14px;}
+    .java_lesson .java_task .right p{display: none}
+    .java_lesson .java_task .right h3{text-align: center}
+    .java_education{display: none}
+    .java_lesson h2,.java_lesson h2 small,.teacher h2,.java_chart h1,.evaluate-from h2,.java_home h2,.java_h1 h1{font-size: 18px;padding: 10px 0 5px}
+    .java_lesson p.small,.teacher .small-h,.java_chart .small_h,.evaluate-from .small_h,.java_home .small_h,.java_h1 p{font-size: 14px;line-height: 28px;}
+    .call_teach{margin-top: 10px;}
+    .teacher{padding-bottom: 10px;}
+    .mr_200{margin-left: 0;margin-top: 10px;}
+    .java_home .row .col-two:last-child{padding: 0 7px;}
+    .java_home .call_me{margin: 0 auto 10px}
+    .java_success .hh1{font-size: 25px;margin-top: 20px;}
+    .java_success .row .col-xs-6{padding: 0;}
+    .java_success a{height: 130px;}
+    .java_h1{height: 66px;}
+    .table_header{font-size: 12px;}
+    .animate{height: 240px;}
+    .table_header .name, .table_header .eudecation, .table_header .money{width: 22%}
+    .table_header .company{width: 34%;}
+    .java_table .name,.java_table .eudecation{width: 22%}
+    .java_table .money{width: 22%;}
+    .java_table .company{width: 34%;}
+}

@@ -1,0 +1,1922 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>万和it教育学院</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/swiper-3.4.1.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/ui.css">
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/swiper.jquery.min.js"></script>
+    <script src="../js/mobile.js"></script>
+    <script src="../js/ui_canvas.js"></script>
+    <script>
+        window.onload=function () {
+            var mySwiper = new Swiper ('.ui_banner', {
+                autoplay: 5000,
+                loop : true
+            });
+            var mIcon=document.querySelector('.icon');
+            var mNav=document.querySelector('.m_nav');
+            var mOne=document.querySelector('.m_f_one');
+            var mTwo=document.querySelector('.m_f_two');
+            var oOne=document.querySelector('.m_foot_one');
+            var oTwo=document.querySelector('.m_foot_two');
+            touchEvent.tap(mIcon,function () {
+                if (mIcon.className=="icon"){
+                    mNav.className+=' show';
+                    mIcon.className+=' close';
+                }else{
+                    mNav.className="m_nav";
+                    mIcon.className="icon";
+                }
+            });
+            touchEvent.tap(mOne,function () {
+                if (oOne.className=="m_foot_one"){
+                    oOne.className+=" m_auto";
+                    $(oOne).height($(oOne).children().length*20+'px');
+                }else{
+                    oOne.className="m_foot_one";
+                    $(oOne).height(0);
+                }
+            });
+            touchEvent.tap(mTwo,function () {
+                if (oTwo.className=="m_foot_two"){
+                    oTwo.className+=" m_auto";
+                    $(oTwo).height($(oTwo).children().length*20+'px');
+                }else{
+                    oTwo.className="m_foot_two";
+                    $(oTwo).height(0);
+                }
+            });
+            touchEvent.tap($(".friend")[0],function () {
+                if ($(".friend")[0].className=="friend col-md-10"){
+                    $(".friend")[0].className+=" m_auto";
+                    $(".friend").height(($(".friend").children().length*20)+'px');
+                }else{
+                    $(".friend")[0].className="friend col-md-10";
+                    $(".friend").height("36px");
+                }
+            });
+            touchEvent.tap($(".m_ewm")[0],function () {
+                if ($(".mobile_ewm")[0].className=="mobile_ewm col-xs-12"){
+                    $(".mobile_ewm")[0].className+=" m_auto";
+                    $(".mobile_ewm").height(215+'px');
+                }else{
+                    $(".mobile_ewm")[0].className="mobile_ewm col-xs-12";
+                    $(".mobile_ewm").height("36px");
+                }
+            });
+            var config = {
+                vx: 4,
+                vy:  4,
+                height: 2,
+                width: 2,
+                count: 100,
+                color: "95, 155, 255",
+                stroke: "100,200,180",
+                dist: 6000,
+                e_dist: 20000,
+                max_conn: 10
+            }
+            CanvasParticle(config);
+            var oScrollUp=$('#scroll-up');
+            var oHtml=[];
+            var sd=null,timer=null;
+            var olen=oScrollUp.find('tr').length;
+            if(olen>13){
+                for(var i=0;i<olen;i++){
+                    if(i%2==0){
+                        sd='one';
+                    }else{
+                        sd="two"
+                    }
+                    oHtml.push('<tr class="'+sd+'">'+$('#scroll-up tbody tr:eq('+i+')').html()+'</tr>')
+                }
+                oScrollUp.find('tbody').append(oHtml);
+               timer=setInterval(function () {
+                    if(-olen*40>parseInt(oScrollUp.css('top'))){
+                        oScrollUp.css('top','40px')
+                    }
+                    oScrollUp.css('top',parseInt(oScrollUp.css('top'))-1+'px');
+                },50)
+            }
+            oScrollUp.mouseenter(function () {
+                clearInterval(timer)
+            }).mouseleave(function () {
+                timer=setInterval(function () {
+                    if(-olen*40>parseInt(oScrollUp.css('top'))){
+                        oScrollUp.css('top','40px')
+                    }
+                    oScrollUp.css('top',parseInt(oScrollUp.css('top'))-1+'px');
+                },30)
+            })
+        }
+
+        $(function () {
+            $(".twenty_percent")
+                .each(function (index) {
+                    $(this).attr('index',index);
+                });
+            $(".twenty_percent")
+                .mouseenter(function () {
+                    var a=$(this).attr('index')
+                    $(".twenty_percent").removeClass('on');
+                    $(".ui_works .list").removeClass('show');
+                    $(this).addClass('on');
+                    $(".ui_works .list:eq("+a+")").addClass('show');
+                })
+            $(".mobile_show")
+                .click(function () {
+                    $(".mobile_show").parents('.item').removeClass('list_i');
+                    var a=$(this).attr('index');
+                    $(this).parents('.item').addClass('list_i');
+                    $(".pc_hide").removeClass('pc_show');
+                    $(".pc_hide:eq("+ a +")").addClass('pc_show');
+                })
+        })
+    </script>
+
+
+<!-- m.wanho.org Baidu tongji analytics -->
+<!-- wanho.org Baidu tongji analytics -->
+<script>
+var _hmt = _hmt || [];
+(function() {
+var hm = document.createElement("script");
+hm.src = "https://hm.baidu.com/hm.js?5b6c8b93793cb5c6fafa7dc2d87edc8e";
+var s = document.getElementsByTagName("script")[0];
+s.parentNode.insertBefore(hm, s);
+})();
+</script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+var hm = document.createElement("script");
+hm.src = "https://hm.baidu.com/hm.js?0c4b80e0ebb15ab9bb4b4c02e3d739c2";
+var s = document.getElementsByTagName("script")[0];
+s.parentNode.insertBefore(hm, s);
+})();
+</script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+var hm = document.createElement("script");
+hm.src = "https://hm.baidu.com/hm.js?e8aecc0a7978b919e0352416208bb334";
+var s = document.getElementsByTagName("script")[0];
+s.parentNode.insertBefore(hm, s);
+})();
+</script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+var hm = document.createElement("script");
+hm.src = "https://hm.baidu.com/hm.js?f1fba78cca2f7bdf39d5e5659e5ce566";
+var s = document.getElementsByTagName("script")[0];
+s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</head>
+<body class="index">
+<!--头部-->
+<div class="container header">
+    <div class="logo">
+        <img src="../img/logo.png" alt="logo"/>
+    </div>
+    <div class="tel">
+        <em class="call_logo"></em>
+        <i>咨询热线:</i>
+        <span>400-100-1100</span>
+    </div>
+    <div class="title">
+        <span></span>
+        <span class="right"></span>
+        <p class="china">誉满二十四载 领跑长三角</p>
+        <p class="english">IN TWENTY-FOUR YEARS, LEADING THE YANGTZE RIVER DELTA.</p>
+    </div>
+</div>
+<div class="mobile visible-xs visible-sm">
+    <div class="icon">
+
+    </div>
+    <div class="m_logo">
+        <img src="../img/m_logo.png" alt="">
+    </div>
+    <div class="m_call">
+
+    </div>
+    <ul class="m_nav">
+        <li><a href="">企业培训</a></li>
+        <li><a href="">院校合作</a></li>
+        <li><a href="">考试中心</a></li>
+        <li><a href="">立即申请</a></li>
+        <li><a href="">下载中心</a></li>
+        <li><a href="">联系我们</a></li>
+        <li></li>
+    </ul>
+</div>
+<!--nav-->
+<div class="container-fluid nav">
+    <ul class="nav_bar container">
+        <li>
+            <ul class="nav-left">
+                <li><a href="">新手指南</a></li>
+            </ul>
+        </li>
+        <li><a href="" class="on">首页</a></li>
+        <li><a href="">企业培训</a></li>
+        <li><a href="">院校合作</a></li>
+        <li><a href="">考试中心</a></li>
+        <li><a href="">立即申请</a></li>
+        <li><a href="">下载中心</a></li>
+        <li><a href="">联系我们</a></li>
+    </ul>
+</div>
+<!--banner-->
+<div class="ui_banner swiper-container">
+    <div class="banner_header">
+        <p>自我挑战</p>
+    </div>
+    <div class="swiper-wrapper">
+        <div class="swiper-slide">
+            <div class="ui_banner_bg"></div>
+            <img src="../img/ui_banner_photo.jpg" alt="banner">
+        </div>
+        <div class="swiper-slide">
+            <div class="ui_banner_bg"></div>
+            <img src="../img/ui_banner_photo.jpg" alt="banner">
+        </div>
+        <div class="swiper-slide">
+            <div class="ui_banner_bg"></div>
+            <img src="../img/ui_banner_photo.jpg" alt="banner">
+        </div>
+    </div>
+</div>
+<!--ui_作品-->
+<div class="ui_works">
+    <h1 class="u_h1">
+        作品展示
+    </h1>
+    <div class="title">
+        <p class="subtitle">
+            来<span>万和4个月</span>，你就能<span>拿出让人刮目相看的作品</span>
+        </p>
+        <p class="smalltitle">
+            4个月的作品完胜工作2年的设计师
+        </p>
+    </div>
+    <div class="content">
+        <p class="twenty_percent on">
+            <i class="icon"></i>
+            <span>icon图标设计</span>
+        </p>
+        <p class="twenty_percent">
+            <i class="pm"></i>
+            <span>平面媒体设计</span>
+        </p>
+        <p class="twenty_percent">
+            <i class="web"></i>
+            <span>web界面设计</span>
+        </p>
+        <p class="twenty_percent">
+            <i class="ui"></i>
+            <span>UI界面设计</span>
+        </p>
+        <p class="twenty_percent">
+            <i class="html5"></i>
+            <span>H5交互设计</span>
+        </p>
+        <div class="list show">
+            <p class="twenty_percent_18 border">
+                <img src="../img/ui_img01.jpg" alt="">
+            </p>
+            <p class="twenty_percent_18 border">
+                <img src="../img/ui_img02.jpg" alt="">
+            </p>
+            <p class="twenty_percent_20 border">
+                <em>
+                    <img src="../img/ui_img03.jpg" alt="">
+                </em>
+                <em class="mat">
+                    <img src="../img/ui_img04.jpg" alt="">
+                </em>
+            </p>
+            <p class="forty_percent border">
+                <img src="../img/ui_img05.jpg" alt="">
+            </p>
+            <p class="fifty_percent border left">
+                <img src="../img/ui_img06.jpg" alt="">
+            </p>
+            <p class="fifty_percent border right">
+                <img src="../img/ui_img07.jpg" alt="">
+            </p>
+        </div>
+        <div class="list">
+            <p class="twenty_percent_18 border">
+                <img src="../img/ui_img01.jpg" alt="">
+            </p>
+            <p class="twenty_percent_18 border">
+                <img src="../img/ui_img02.jpg" alt="">
+            </p>
+            <p class="twenty_percent_20 border">
+                <em>
+                    <img src="../img/ui_img03.jpg" alt="">
+                </em>
+                <em class="mat">
+                    <img src="../img/ui_img04.jpg" alt="">
+                </em>
+            </p>
+            <p class="forty_percent border">
+                <img src="../img/ui_img05.jpg" alt="">
+            </p>
+            <p class="fifty_percent border left">
+                <img src="../img/ui_img06.jpg" alt="">
+            </p>
+            <p class="fifty_percent border right">
+                <img src="../img/ui_img07.jpg" alt="">
+            </p>
+        </div>
+        <div class="list">
+            <p class="twenty_percent_18 border">
+                <img src="../img/ui_img01.jpg" alt="">
+            </p>
+            <p class="twenty_percent_18 border">
+                <img src="../img/ui_img02.jpg" alt="">
+            </p>
+            <p class="twenty_percent_20 border">
+                <em>
+                    <img src="../img/ui_img03.jpg" alt="">
+                </em>
+                <em class="mat">
+                    <img src="../img/ui_img04.jpg" alt="">
+                </em>
+            </p>
+            <p class="forty_percent border">
+                <img src="../img/ui_img05.jpg" alt="">
+            </p>
+            <p class="fifty_percent border left">
+                <img src="../img/ui_img06.jpg" alt="">
+            </p>
+            <p class="fifty_percent border right">
+                <img src="../img/ui_img07.jpg" alt="">
+            </p>
+        </div>
+        <div class="list">
+            <p class="twenty_percent_18 border">
+                <img src="../img/ui_img01.jpg" alt="">
+            </p>
+            <p class="twenty_percent_18 border">
+                <img src="../img/ui_img02.jpg" alt="">
+            </p>
+            <p class="twenty_percent_20 border">
+                <em>
+                    <img src="../img/ui_img03.jpg" alt="">
+                </em>
+                <em class="mat">
+                    <img src="../img/ui_img04.jpg" alt="">
+                </em>
+            </p>
+            <p class="forty_percent border">
+                <img src="../img/ui_img05.jpg" alt="">
+            </p>
+            <p class="fifty_percent border left">
+                <img src="../img/ui_img06.jpg" alt="">
+            </p>
+            <p class="fifty_percent border right">
+                <img src="../img/ui_img07.jpg" alt="">
+            </p>
+        </div>
+        <div class="list">
+            <p class="twenty_percent_18 border">
+                <img src="../img/ui_img01.jpg" alt="">
+            </p>
+            <p class="twenty_percent_18 border">
+                <img src="../img/ui_img02.jpg" alt="">
+            </p>
+            <p class="twenty_percent_20 border">
+                <em>
+                    <img src="../img/ui_img03.jpg" alt="">
+                </em>
+                <em class="mat">
+                    <img src="../img/ui_img04.jpg" alt="">
+                </em>
+            </p>
+            <p class="forty_percent border">
+                <img src="../img/ui_img05.jpg" alt="">
+            </p>
+            <p class="fifty_percent border left">
+                <img src="../img/ui_img06.jpg" alt="">
+            </p>
+            <p class="fifty_percent border right">
+                <img src="../img/ui_img07.jpg" alt="">
+            </p>
+        </div>
+    </div>
+</div>
+<!--ui_薪资-->
+<div class="ui_money">
+    <h1>
+        高薪就业
+    </h1>
+    <p class="title">
+        比你早来的，她们都拿<span>高薪</span>了
+    </p>
+    <p class="subtitle">
+        薪资节节高，安能辨我是雌雄
+    </p>
+    <div class="animate">
+        <div class="table_header">
+            <div class="name">姓名</div>
+            <div class="eudecation">学历</div>
+            <div class="school m_hide">毕业院校</div>
+            <div class="job m_hide">入职岗位</div>
+            <div class="company">就业公司</div>
+            <div class="money">就业薪资</div>
+        </div>
+        <table id="scroll-up">
+            <tbody>
+            <tr class="one">
+                <td class="name">任*</td>
+                <td class="eudecation">本科</td>
+                <td class="school m_hide">金陵科技</td>
+                <td class="job m_hide">ui设计</td>
+                <td class="company">二八研究所</td>
+                <td class="money">10万/年</td>
+            </tr>
+            <tr class="two">
+                <td class="name">任*</td>
+                <td class="eudecation">本科</td>
+                <td class="school m_hide">金陵科技</td>
+                <td class="job m_hide">ui设计</td>
+                <td class="company">二八研究所</td>
+                <td class="money">10万/年</td>
+            </tr>
+            <tr class="one">
+                <td class="name">任*</td>
+                <td class="eudecation">本科</td>
+                <td class="school m_hide">金陵科技</td>
+                <td class="job m_hide">ui设计</td>
+                <td class="company">二八研究所</td>
+                <td class="money">10万/年</td>
+            </tr>
+            <tr class="two">
+                <td class="name">任*</td>
+                <td class="eudecation">本科</td>
+                <td class="school m_hide">金陵科技</td>
+                <td class="job m_hide">ui设计</td>
+                <td class="company">二八研究所</td>
+                <td class="money">10万/年</td>
+            </tr>
+            <tr class="one">
+                <td class="name">任*</td>
+                <td class="eudecation">本科</td>
+                <td class="school m_hide">金陵科技</td>
+                <td class="job m_hide">ui设计</td>
+                <td class="company">二八研究所</td>
+                <td class="money">10万/年</td>
+            </tr>
+            <tr class="two">
+                <td class="name">任*</td>
+                <td class="eudecation">本科</td>
+                <td class="school m_hide">金陵科技</td>
+                <td class="job m_hide">ui设计</td>
+                <td class="company">二八研究所</td>
+                <td class="money">10万/年</td>
+            </tr>
+            <tr class="one">
+                <td class="name">任*</td>
+                <td class="eudecation">本科</td>
+                <td class="school m_hide">金陵科技</td>
+                <td class="job m_hide">ui设计</td>
+                <td class="company">二八研究所</td>
+                <td class="money">10万/年</td>
+            </tr>
+            <tr class="two">
+                <td class="name">任*</td>
+                <td class="eudecation">本科</td>
+                <td class="school m_hide">金陵科技</td>
+                <td class="job m_hide">ui设计</td>
+                <td class="company">二八研究所</td>
+                <td class="money">10万/年</td>
+            </tr>
+            <tr class="one">
+                <td class="name">任*</td>
+                <td class="eudecation">本科</td>
+                <td class="school m_hide">金陵科技</td>
+                <td class="job m_hide">ui设计</td>
+                <td class="company">二八研究所</td>
+                <td class="money">10万/年</td>
+            </tr>
+            <tr class="two">
+                <td class="name">任*</td>
+                <td class="eudecation">本科</td>
+                <td class="school m_hide">金陵科技</td>
+                <td class="job m_hide">ui设计</td>
+                <td class="company">二八研究所</td>
+                <td class="money">10万/年</td>
+            </tr>
+            <tr class="one">
+                <td class="name">任*</td>
+                <td class="eudecation">本科</td>
+                <td class="school m_hide">金陵科技</td>
+                <td class="job m_hide">ui设计</td>
+                <td class="company">二八研究所</td>
+                <td class="money">10万/年</td>
+            </tr>
+            <tr class="two">
+                <td class="name">任*</td>
+                <td class="eudecation">本科</td>
+                <td class="school m_hide">金陵科技</td>
+                <td class="job m_hide">ui设计</td>
+                <td class="company">二八研究所</td>
+                <td class="money">10万/年</td>
+            </tr>
+            <tr class="one">
+                <td class="name">任*</td>
+                <td class="eudecation">本科</td>
+                <td class="school m_hide">金陵科技</td>
+                <td class="job m_hide">ui设计</td>
+                <td class="company">二八研究所</td>
+                <td class="money">10万/年</td>
+            </tr>
+            <tr class="two">
+                <td class="name">任*</td>
+                <td class="eudecation">本科</td>
+                <td class="school m_hide">金陵科技</td>
+                <td class="job m_hide">ui设计</td>
+                <td class="company">二八研究所</td>
+                <td class="money">10万/年</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+    <p class="btm">
+        就业合作企业突破2000家，名企推荐、专场招聘，学员就业更快捷！
+    </p>
+</div>
+<!--课程体系-->
+<div class="ui_lessen">
+    <h1>
+        课程体系
+    </h1>
+    <p class="title">
+        我们的课程体系是最贴近<span>企业需求</span>的
+    </p>
+    <p class="subtitle">
+        精心设计的课程，每一天都学有所成
+    </p>
+    <div class="container">
+        <div class="row" id="select_lesson">
+            <div class="col-md-3 col-xs-6">
+               <div class="item list_1 list_i">
+                   <img src="../img/ui_lesson_01.png" alt="">
+                   <span class="h4">设计基础课程</span>
+                   <a href="javascript:;" class="mobile_show">点击查看详情</a>
+                   <i></i>
+               </div>
+            </div>
+            <div class="col-md-3 col-xs-6">
+                <div class="item list_2">
+                    <img src="../img/ui_lesson_02.png" alt="">
+                    <span class="h4">平面设计课程</span>
+                    <a href="javascript:;" class="mobile_show">点击查看详情</a>
+                    <i></i>
+                </div>
+            </div>
+            <div class="col-md-3 col-xs-6">
+                <div class="item list_3">
+                    <img src="../img/ui_lesson_03.png" alt="">
+                    <span class="h4">WEB网页设计课程</span>
+                    <a href="javascript:;" class="mobile_show">点击查看详情</a>
+                    <i></i>
+                </div>
+            </div>
+            <div class="col-md-3 col-xs-6">
+                <div class="item list_4">
+                    <img src="../img/ui_lesson_04.png" alt="">
+                    <span class="h4">APP设计课程</span>
+                    <a href="javascript:;" class="mobile_show">点击查看详情</a>
+                    <i></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <table class="pc_hide pc_show">
+        <tr>
+            <th class="classification">
+                分类
+            </th>
+            <th class="lesson">
+                课程
+            </th>
+            <th class="content">
+                内容
+            </th>
+            <th class="target">课程目标</th>
+        </tr>
+        <tr>
+            <td rowspan="4" class="len">
+                <span>美学</span>
+                <span>基础</span>
+            </td>
+            <td>
+                素描
+            </td>
+            <td class="center">
+                通过结构素描写生、石膏几何模型写生、静物写生的练习，培养学员对外界的观察能力、对画面的整体把握能力以及对物体的塑造能力。
+            </td>
+            <td rowspan="4" class="ren">
+                <p>
+                    通过美学基础及软件基础的系统学习，让学员基本掌握课程所需的所有软件和插件的使用方法。为后面项目阶段打下牢固的基本功。
+                </p>
+                <p>
+                    软件学习采用项目和软件教学穿插式交替进行，反复练习，强化基本功的同时也能够掌握相关的行业信息知识。
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                色彩
+            </td>
+            <td class="center">
+                通过对各类静物的色彩表现，培养学员对外界的观察能力、对画面的整体把握能力以及对物体的色彩塑造能力。
+            </td>
+        </tr>
+        <tr>
+            <td>
+                平面构成
+            </td>
+            <td class="center">
+                了解平面构成的基本方法和基本运用规律。理解点、线、面的构成原理并能熟练运用。理解平面构成的十一种构成方式并能运用到设计当中。
+            </td>
+        </tr>
+        <tr>
+            <td>
+                色彩构成
+            </td>
+            <td class="center">
+                掌握色彩最基本的使用概念，强化色彩的结构、空间、质量的概念，灵活运用色彩的创作方法与步骤，理解色彩的表现技巧，深入地理解色彩构成的本质。
+            </td>
+        </tr>
+        <tr>
+            <td rowspan="10" class="len bor">
+                <span>软件</span>
+                <span>基础</span>
+            </td>
+            <td>Photoshot</td>
+            <td class="center">
+                通过系统学习，相对熟练运用软件的操作，掌握ps的基本功能、基本工具及应用范围。熟练掌握ps的选区、图层、蒙版、通道等主要功能及在实际案例中的应用。介绍GIF动画的制作原理。
+            </td>
+            <td class="ren-r">
+                <img src="../img/ui_tabel_img01.jpg" alt="">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Illustrator
+            </td>
+            <td class="center">
+                通过系统学习，相对熟练运用软件的操作，掌握ai的基本功能、基本工具及应用范围。熟练掌握ai图形的布尔运算方法，并能熟练运用软件进行标志的设计、字体的变形、图标的制作。
+            </td>
+            <td class="ren-r">
+                <img src="../img/ui_tabel_img02.jpg" alt="">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Indesign
+            </td>
+            <td class="center">
+                掌握ID的基本操作功能，了解印刷工艺和排版知识。熟练运用ID的主页操作，置入功能、页码操作等排版功能。了解电子书制作的流程，并能完成swf电子书的制作。
+            </td>
+            <td class="ren-r">
+                <img src="../img/ui_tabel_img03.jpg" alt="">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Aftereffect
+            </td>
+            <td class="center">
+                掌握AE的基本功能操作，了解动效制作流程及作用。熟练运用工具进行动效制作。
+            </td>
+            <td class="ren-r">
+                <img src="../img/ui_tabel_img04.jpg" alt="">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Dreamweaver
+            </td>
+            <td class="center">
+                通过系统学习，相对熟练运用软件的操作，掌握DW的基本功能、基本工具及应用范围。熟练掌握DW进行页面的布局。
+            </td>
+            <td class="ren-r">
+                <img src="../img/ui_tabel_img05.jpg" alt="">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Axure rp
+            </td>
+            <td class="center">
+                掌握学习Axure 产品设计软件，结合项目学习交互设计的原理，了解用户心理培养产品经理思维，提高讲解方案的能力学习与客户讲解方案时沟通的要点通过项目实训，可独立设计APP高精原型图
+            </td>
+            <td class="ren-r">
+                <img src="../img/ui_tabel_img06.jpg" alt="">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                PS PLAY
+            </td>
+            <td class="center">
+                了解软件，并能运用软件进行网络连接手机和电脑，在终端设备上实时预览PS的设计稿，可同步调试及截图保存到移动终端
+            </td>
+            <td class="ren-r">
+                <img src="../img/ui_tabel_img07.jpg" alt="">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Markman
+            </td>
+            <td class="center">
+                了解并熟练掌握标注软件，学会如何在运用软件进行标注，掌握标注内容及规范。
+            </td>
+            <td class="ren-r">
+                <img src="../img/ui_tabel_img08.jpg" alt="">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Cuttman
+            </td>
+            <td class="center">
+                通过系统学习，相对熟练运用软件的操作，掌握ai的基本功能、基本工具及应用范围。熟练掌握ai图形的布尔运算方法，并能熟练运用软件进行标志的设计、字体的变形、图标的制作。
+            </td>
+            <td class="ren-r">
+                <img src="../img/ui_tabel_img09.jpg" alt="">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                powerponit
+            </td>
+            <td class="center">
+                理解办公软件在专业设计领域的重要性，掌握基本提案操作功能，提升商务交流能力。
+            </td>
+            <td class="ren-r">
+                <img src="../img/ui_tabel_img10.jpg" alt="">
+            </td>
+        </tr>
+
+
+    </table>
+    <table class="pc_hide">
+        <tr>
+            <th class="classification">
+                分类
+            </th>
+            <th class="lesson">
+                课程
+            </th>
+            <th class="content">
+                内容
+            </th>
+            <th class="target">课程目标</th>
+        </tr>
+        <tr>
+            <td rowspan="4" class="len">
+                <span>美学</span>
+                <span>基础</span>
+            </td>
+            <td>
+                素描
+            </td>
+            <td class="center">
+                通过结构素描写生、石膏几何模型写生、静物写生的练习，培养学员对外界的观察能力、对画面的整体把握能力以及对物体的塑造能力。
+            </td>
+            <td rowspan="4" class="ren">
+                <p>
+                    通过美学基础及软件基础的系统学习，让学员基本掌握课程所需的所有软件和插件的使用方法。为后面项目阶段打下牢固的基本功。
+                </p>
+                <p>
+                    软件学习采用项目和软件教学穿插式交替进行，反复练习，强化基本功的同时也能够掌握相关的行业信息知识。
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                色彩
+            </td>
+            <td class="center">
+                通过对各类静物的色彩表现，培养学员对外界的观察能力、对画面的整体把握能力以及对物体的色彩塑造能力。
+            </td>
+        </tr>
+        <tr>
+            <td>
+                平面构成
+            </td>
+            <td class="center">
+                了解平面构成的基本方法和基本运用规律。理解点、线、面的构成原理并能熟练运用。理解平面构成的十一种构成方式并能运用到设计当中。
+            </td>
+        </tr>
+        <tr>
+            <td>
+                色彩构成
+            </td>
+            <td class="center">
+                掌握色彩最基本的使用概念，强化色彩的结构、空间、质量的概念，灵活运用色彩的创作方法与步骤，理解色彩的表现技巧，深入地理解色彩构成的本质。
+            </td>
+        </tr>
+        <tr>
+            <td rowspan="10" class="len bor">
+                <span>软件</span>
+                <span>基础</span>
+            </td>
+            <td>Photoshot</td>
+            <td class="center">
+                通过系统学习，相对熟练运用软件的操作，掌握ps的基本功能、基本工具及应用范围。熟练掌握ps的选区、图层、蒙版、通道等主要功能及在实际案例中的应用。介绍GIF动画的制作原理。
+            </td>
+            <td class="ren-r">
+                <img src="../img/ui_tabel_img01.jpg" alt="">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Illustrator
+            </td>
+            <td class="center">
+                通过系统学习，相对熟练运用软件的操作，掌握ai的基本功能、基本工具及应用范围。熟练掌握ai图形的布尔运算方法，并能熟练运用软件进行标志的设计、字体的变形、图标的制作。
+            </td>
+            <td class="ren-r">
+                <img src="../img/ui_tabel_img02.jpg" alt="">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Indesign
+            </td>
+            <td class="center">
+                掌握ID的基本操作功能，了解印刷工艺和排版知识。熟练运用ID的主页操作，置入功能、页码操作等排版功能。了解电子书制作的流程，并能完成swf电子书的制作。
+            </td>
+            <td class="ren-r">
+                <img src="../img/ui_tabel_img03.jpg" alt="">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Aftereffect
+            </td>
+            <td class="center">
+                掌握AE的基本功能操作，了解动效制作流程及作用。熟练运用工具进行动效制作。
+            </td>
+            <td class="ren-r">
+                <img src="../img/ui_tabel_img04.jpg" alt="">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Dreamweaver
+            </td>
+            <td class="center">
+                通过系统学习，相对熟练运用软件的操作，掌握DW的基本功能、基本工具及应用范围。熟练掌握DW进行页面的布局。
+            </td>
+            <td class="ren-r">
+                <img src="../img/ui_tabel_img05.jpg" alt="">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Axure rp
+            </td>
+            <td class="center">
+                掌握学习Axure 产品设计软件，结合项目学习交互设计的原理，了解用户心理培养产品经理思维，提高讲解方案的能力学习与客户讲解方案时沟通的要点通过项目实训，可独立设计APP高精原型图
+            </td>
+            <td class="ren-r">
+                <img src="../img/ui_tabel_img06.jpg" alt="">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                PS PLAY
+            </td>
+            <td class="center">
+                了解软件，并能运用软件进行网络连接手机和电脑，在终端设备上实时预览PS的设计稿，可同步调试及截图保存到移动终端
+            </td>
+            <td class="ren-r">
+                <img src="../img/ui_tabel_img07.jpg" alt="">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Markman
+            </td>
+            <td class="center">
+                了解并熟练掌握标注软件，学会如何在运用软件进行标注，掌握标注内容及规范。
+            </td>
+            <td class="ren-r">
+                <img src="../img/ui_tabel_img08.jpg" alt="">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Cuttman
+            </td>
+            <td class="center">
+                通过系统学习，相对熟练运用软件的操作，掌握ai的基本功能、基本工具及应用范围。熟练掌握ai图形的布尔运算方法，并能熟练运用软件进行标志的设计、字体的变形、图标的制作。
+            </td>
+            <td class="ren-r">
+                <img src="../img/ui_tabel_img09.jpg" alt="">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                powerponit
+            </td>
+            <td class="center">
+                理解办公软件在专业设计领域的重要性，掌握基本提案操作功能，提升商务交流能力。
+            </td>
+            <td class="ren-r">
+                <img src="../img/ui_tabel_img10.jpg" alt="">
+            </td>
+        </tr>
+
+
+    </table>
+    <table class="pc_hide">
+        <tr>
+            <th class="classification">
+                分类
+            </th>
+            <th class="lesson">
+                课程
+            </th>
+            <th class="content">
+                内容
+            </th>
+            <th class="target">课程目标</th>
+        </tr>
+        <tr>
+            <td rowspan="4" class="len">
+                <span>美学</span>
+                <span>基础</span>
+            </td>
+            <td>
+                素描
+            </td>
+            <td class="center">
+                通过结构素描写生、石膏几何模型写生、静物写生的练习，培养学员对外界的观察能力、对画面的整体把握能力以及对物体的塑造能力。
+            </td>
+            <td rowspan="4" class="ren">
+                <p>
+                    通过美学基础及软件基础的系统学习，让学员基本掌握课程所需的所有软件和插件的使用方法。为后面项目阶段打下牢固的基本功。
+                </p>
+                <p>
+                    软件学习采用项目和软件教学穿插式交替进行，反复练习，强化基本功的同时也能够掌握相关的行业信息知识。
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                色彩
+            </td>
+            <td class="center">
+                通过对各类静物的色彩表现，培养学员对外界的观察能力、对画面的整体把握能力以及对物体的色彩塑造能力。
+            </td>
+        </tr>
+        <tr>
+            <td>
+                平面构成
+            </td>
+            <td class="center">
+                了解平面构成的基本方法和基本运用规律。理解点、线、面的构成原理并能熟练运用。理解平面构成的十一种构成方式并能运用到设计当中。
+            </td>
+        </tr>
+        <tr>
+            <td>
+                色彩构成
+            </td>
+            <td class="center">
+                掌握色彩最基本的使用概念，强化色彩的结构、空间、质量的概念，灵活运用色彩的创作方法与步骤，理解色彩的表现技巧，深入地理解色彩构成的本质。
+            </td>
+        </tr>
+        <tr>
+            <td rowspan="10" class="len bor">
+                <span>软件</span>
+                <span>基础</span>
+            </td>
+            <td>Photoshot</td>
+            <td class="center">
+                通过系统学习，相对熟练运用软件的操作，掌握ps的基本功能、基本工具及应用范围。熟练掌握ps的选区、图层、蒙版、通道等主要功能及在实际案例中的应用。介绍GIF动画的制作原理。
+            </td>
+            <td class="ren-r">
+                <img src="../img/ui_tabel_img01.jpg" alt="">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Illustrator
+            </td>
+            <td class="center">
+                通过系统学习，相对熟练运用软件的操作，掌握ai的基本功能、基本工具及应用范围。熟练掌握ai图形的布尔运算方法，并能熟练运用软件进行标志的设计、字体的变形、图标的制作。
+            </td>
+            <td class="ren-r">
+                <img src="../img/ui_tabel_img02.jpg" alt="">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Indesign
+            </td>
+            <td class="center">
+                掌握ID的基本操作功能，了解印刷工艺和排版知识。熟练运用ID的主页操作，置入功能、页码操作等排版功能。了解电子书制作的流程，并能完成swf电子书的制作。
+            </td>
+            <td class="ren-r">
+                <img src="../img/ui_tabel_img03.jpg" alt="">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Aftereffect
+            </td>
+            <td class="center">
+                掌握AE的基本功能操作，了解动效制作流程及作用。熟练运用工具进行动效制作。
+            </td>
+            <td class="ren-r">
+                <img src="../img/ui_tabel_img04.jpg" alt="">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Dreamweaver
+            </td>
+            <td class="center">
+                通过系统学习，相对熟练运用软件的操作，掌握DW的基本功能、基本工具及应用范围。熟练掌握DW进行页面的布局。
+            </td>
+            <td class="ren-r">
+                <img src="../img/ui_tabel_img05.jpg" alt="">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Axure rp
+            </td>
+            <td class="center">
+                掌握学习Axure 产品设计软件，结合项目学习交互设计的原理，了解用户心理培养产品经理思维，提高讲解方案的能力学习与客户讲解方案时沟通的要点通过项目实训，可独立设计APP高精原型图
+            </td>
+            <td class="ren-r">
+                <img src="../img/ui_tabel_img06.jpg" alt="">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                PS PLAY
+            </td>
+            <td class="center">
+                了解软件，并能运用软件进行网络连接手机和电脑，在终端设备上实时预览PS的设计稿，可同步调试及截图保存到移动终端
+            </td>
+            <td class="ren-r">
+                <img src="../img/ui_tabel_img07.jpg" alt="">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Markman
+            </td>
+            <td class="center">
+                了解并熟练掌握标注软件，学会如何在运用软件进行标注，掌握标注内容及规范。
+            </td>
+            <td class="ren-r">
+                <img src="../img/ui_tabel_img08.jpg" alt="">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Cuttman
+            </td>
+            <td class="center">
+                通过系统学习，相对熟练运用软件的操作，掌握ai的基本功能、基本工具及应用范围。熟练掌握ai图形的布尔运算方法，并能熟练运用软件进行标志的设计、字体的变形、图标的制作。
+            </td>
+            <td class="ren-r">
+                <img src="../img/ui_tabel_img09.jpg" alt="">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                powerponit
+            </td>
+            <td class="center">
+                理解办公软件在专业设计领域的重要性，掌握基本提案操作功能，提升商务交流能力。
+            </td>
+            <td class="ren-r">
+                <img src="../img/ui_tabel_img10.jpg" alt="">
+            </td>
+        </tr>
+
+
+    </table>
+    <table class="pc_hide">
+        <tr>
+            <th class="classification">
+                分类
+            </th>
+            <th class="lesson">
+                课程
+            </th>
+            <th class="content">
+                内容
+            </th>
+            <th class="target">课程目标</th>
+        </tr>
+        <tr>
+            <td rowspan="4" class="len">
+                <span>美学</span>
+                <span>基础</span>
+            </td>
+            <td>
+                素描
+            </td>
+            <td class="center">
+                通过结构素描写生、石膏几何模型写生、静物写生的练习，培养学员对外界的观察能力、对画面的整体把握能力以及对物体的塑造能力。
+            </td>
+            <td rowspan="4" class="ren">
+                <p>
+                    通过美学基础及软件基础的系统学习，让学员基本掌握课程所需的所有软件和插件的使用方法。为后面项目阶段打下牢固的基本功。
+                </p>
+                <p>
+                    软件学习采用项目和软件教学穿插式交替进行，反复练习，强化基本功的同时也能够掌握相关的行业信息知识。
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                色彩
+            </td>
+            <td class="center">
+                通过对各类静物的色彩表现，培养学员对外界的观察能力、对画面的整体把握能力以及对物体的色彩塑造能力。
+            </td>
+        </tr>
+        <tr>
+            <td>
+                平面构成
+            </td>
+            <td class="center">
+                了解平面构成的基本方法和基本运用规律。理解点、线、面的构成原理并能熟练运用。理解平面构成的十一种构成方式并能运用到设计当中。
+            </td>
+        </tr>
+        <tr>
+            <td>
+                色彩构成
+            </td>
+            <td class="center">
+                掌握色彩最基本的使用概念，强化色彩的结构、空间、质量的概念，灵活运用色彩的创作方法与步骤，理解色彩的表现技巧，深入地理解色彩构成的本质。
+            </td>
+        </tr>
+        <tr>
+            <td rowspan="10" class="len bor">
+                <span>软件</span>
+                <span>基础</span>
+            </td>
+            <td>Photoshot</td>
+            <td class="center">
+                通过系统学习，相对熟练运用软件的操作，掌握ps的基本功能、基本工具及应用范围。熟练掌握ps的选区、图层、蒙版、通道等主要功能及在实际案例中的应用。介绍GIF动画的制作原理。
+            </td>
+            <td class="ren-r">
+                <img src="../img/ui_tabel_img01.jpg" alt="">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Illustrator
+            </td>
+            <td class="center">
+                通过系统学习，相对熟练运用软件的操作，掌握ai的基本功能、基本工具及应用范围。熟练掌握ai图形的布尔运算方法，并能熟练运用软件进行标志的设计、字体的变形、图标的制作。
+            </td>
+            <td class="ren-r">
+                <img src="../img/ui_tabel_img02.jpg" alt="">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Indesign
+            </td>
+            <td class="center">
+                掌握ID的基本操作功能，了解印刷工艺和排版知识。熟练运用ID的主页操作，置入功能、页码操作等排版功能。了解电子书制作的流程，并能完成swf电子书的制作。
+            </td>
+            <td class="ren-r">
+                <img src="../img/ui_tabel_img03.jpg" alt="">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Aftereffect
+            </td>
+            <td class="center">
+                掌握AE的基本功能操作，了解动效制作流程及作用。熟练运用工具进行动效制作。
+            </td>
+            <td class="ren-r">
+                <img src="../img/ui_tabel_img04.jpg" alt="">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Dreamweaver
+            </td>
+            <td class="center">
+                通过系统学习，相对熟练运用软件的操作，掌握DW的基本功能、基本工具及应用范围。熟练掌握DW进行页面的布局。
+            </td>
+            <td class="ren-r">
+                <img src="../img/ui_tabel_img05.jpg" alt="">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Axure rp
+            </td>
+            <td class="center">
+                掌握学习Axure 产品设计软件，结合项目学习交互设计的原理，了解用户心理培养产品经理思维，提高讲解方案的能力学习与客户讲解方案时沟通的要点通过项目实训，可独立设计APP高精原型图
+            </td>
+            <td class="ren-r">
+                <img src="../img/ui_tabel_img06.jpg" alt="">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                PS PLAY
+            </td>
+            <td class="center">
+                了解软件，并能运用软件进行网络连接手机和电脑，在终端设备上实时预览PS的设计稿，可同步调试及截图保存到移动终端
+            </td>
+            <td class="ren-r">
+                <img src="../img/ui_tabel_img07.jpg" alt="">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Markman
+            </td>
+            <td class="center">
+                了解并熟练掌握标注软件，学会如何在运用软件进行标注，掌握标注内容及规范。
+            </td>
+            <td class="ren-r">
+                <img src="../img/ui_tabel_img08.jpg" alt="">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Cuttman
+            </td>
+            <td class="center">
+                通过系统学习，相对熟练运用软件的操作，掌握ai的基本功能、基本工具及应用范围。熟练掌握ai图形的布尔运算方法，并能熟练运用软件进行标志的设计、字体的变形、图标的制作。
+            </td>
+            <td class="ren-r">
+                <img src="../img/ui_tabel_img09.jpg" alt="">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                powerponit
+            </td>
+            <td class="center">
+                理解办公软件在专业设计领域的重要性，掌握基本提案操作功能，提升商务交流能力。
+            </td>
+            <td class="ren-r">
+                <img src="../img/ui_tabel_img10.jpg" alt="">
+            </td>
+        </tr>
+
+
+    </table>
+</div>
+<!--ui_teach-->
+<div class="ui_teach">
+    <h1>金牌讲师</h1>
+    <div class="con">
+        <p class="title">
+            专业的导师及服务团队，带你走进UI职场
+        </p>
+        <p class="subtitle">
+            集结行业大牛，培养与众不同的设计人才
+        </p>
+        <div class="teach-wapper teacher container">
+            <div class="swiper-container-teacher swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="item">
+                            <img src="../img/photo_img01.png" alt="">
+                            <span class="name">方国平</span>
+                            <span class="job">Adobe认证讲师</span>
+                            <span class="age">八年游戏设计开发经验</span>
+                            <span class="project">参与项目</span>
+                            <span class="list">
+                            <cite>&lt;&lt;梦幻国度&gt;&gt;</cite>
+                            <cite>&lt;&lt;英雄年代&gt;&gt;</cite>
+                            <cite>&lt;&lt;星球大战&gt;&gt;</cite>
+                            <cite>&lt;&lt;龙与地下城&gt;&gt;</cite>
+                        </span>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="item">
+                            <img src="../img/photo_img01.png" alt="">
+                            <span class="name">方国平</span>
+                            <span class="job">Adobe认证讲师</span>
+                            <span class="age">八年游戏设计开发经验</span>
+                            <span class="project">参与项目</span>
+                            <span class="list">
+                            <cite>&lt;&lt;梦幻国度&gt;&gt;</cite>
+                            <cite>&lt;&lt;英雄年代&gt;&gt;</cite>
+                            <cite>&lt;&lt;星球大战&gt;&gt;</cite>
+                            <cite>&lt;&lt;龙与地下城&gt;&gt;</cite>
+                        </span>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="item">
+                            <img src="../img/photo_img01.png" alt="">
+                            <span class="name">方国平</span>
+                            <span class="job">Adobe认证讲师</span>
+                            <span class="age">八年游戏设计开发经验</span>
+                            <span class="project">参与项目</span>
+                            <span class="list">
+                            <cite>&lt;&lt;梦幻国度&gt;&gt;</cite>
+                            <cite>&lt;&lt;英雄年代&gt;&gt;</cite>
+                            <cite>&lt;&lt;星球大战&gt;&gt;</cite>
+                            <cite>&lt;&lt;龙与地下城&gt;&gt;</cite>
+                        </span>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="item">
+                            <img src="../img/photo_img01.png" alt="">
+                            <span class="name">方国平</span>
+                            <span class="job">Adobe认证讲师</span>
+                            <span class="age">八年游戏设计开发经验</span>
+                            <span class="project">参与项目</span>
+                            <span class="list">
+                            <cite>&lt;&lt;梦幻国度&gt;&gt;</cite>
+                            <cite>&lt;&lt;英雄年代&gt;&gt;</cite>
+                            <cite>&lt;&lt;星球大战&gt;&gt;</cite>
+                            <cite>&lt;&lt;龙与地下城&gt;&gt;</cite>
+                        </span>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="item">
+                            <img src="../img/photo_img01.png" alt="">
+                            <span class="name">方国平</span>
+                            <span class="job">Adobe认证讲师</span>
+                            <span class="age">八年游戏设计开发经验</span>
+                            <span class="project">参与项目</span>
+                            <span class="list">
+                            <cite>&lt;&lt;梦幻国度&gt;&gt;</cite>
+                            <cite>&lt;&lt;英雄年代&gt;&gt;</cite>
+                            <cite>&lt;&lt;星球大战&gt;&gt;</cite>
+                            <cite>&lt;&lt;龙与地下城&gt;&gt;</cite>
+                        </span>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="item">
+                            <img src="../img/photo_img01.png" alt="">
+                            <span class="name">方国平</span>
+                            <span class="job">Adobe认证讲师</span>
+                            <span class="age">八年游戏设计开发经验</span>
+                            <span class="project">参与项目</span>
+                            <span class="list">
+                            <cite>&lt;&lt;梦幻国度&gt;&gt;</cite>
+                            <cite>&lt;&lt;英雄年代&gt;&gt;</cite>
+                            <cite>&lt;&lt;星球大战&gt;&gt;</cite>
+                            <cite>&lt;&lt;龙与地下城&gt;&gt;</cite>
+                        </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-prev teach-prev swiper-button-prev-teach"></div>
+            <div class="swiper-button-next teach-next swiper-button-next-teach"></div>
+        </div>
+        <p class="btm">
+            <a href="">提前认识老师</a>
+        </p>
+    </div>
+</div>
+<!--技能get-->
+<div class="ui_get">
+    <h1>技能Get</h1>
+    <p class="title">来这里，你可以<span>技能get</span></p>
+    <p class="subtitle">
+        技术单一、知识面窄是大学生就业难的通病，通常能否胜任一个岗位并不只是考量一种技能。UI设计师课程涵盖平面、网页、手绘、APP、产品交互等多种设计，同时重点培养UI与产品交互设计能力，让学员成为一专多能的设计师，实现全行业就业。
+    </p>
+    <div class="container">
+        <div class="row">
+            <div class="col-two">
+                <img src="../img/ui_get_icon01.png" alt="">
+                <span>平面设计</span>
+            </div>
+            <div class="col-two">
+                <img src="../img/ui_get_icon02.png" alt="">
+                <span>网页设计</span>
+            </div>
+            <div class="col-two">
+                <img src="../img/ui_get_icon03.png" alt="">
+                <span>网页设计</span>
+            </div>
+            <div class="col-two">
+                <img src="../img/ui_get_icon04.png" alt="">
+                <span>UI设计</span>
+            </div>
+            <div class="col-two">
+                <img src="../img/ui_get_icon05.png" alt="">
+                <span>交互设计</span>
+            </div>
+        </div>
+    </div>
+    <p class="btm">
+        <a href="">点击了解详情</a>
+    </p>
+</div>
+<!--动态新闻-->
+<div class="ui_news">
+    <h1>
+        动态中心
+    </h1>
+</div>
+<div class="index-news container">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="right">
+                <h2>
+                    <small>中心动态</small>
+                    <a href="">查看更多&gt;&gt;</a>
+                </h2>
+                <ul>
+                    <li>
+                        <p class="news_h">中心新闻-行业动态-就业喜报</p>
+                        <p>
+                            <img src="../img/img01.png" alt="" class="img">
+                            <em class="h1">欢乐24周年，这个冬天，我们来约个惠吧！</em>
+                            <span>
+                                24年，江苏万和风雨兼程，感恩有你！即日起至2016年12月31日起，万和感恩回馈精彩来袭，2016年最后一次哦！
+                                绝对是你不容错过的感恩盛会！
+                            </span>
+                            <a href="">查看详情</a>
+                        </p>
+                    </li>
+                    <li>
+                        <a href="">[中心新闻]</a>
+                        <a href="" class="center">圣诞平安节我们这样过，你呢</a>
+                        <span class="right">2016-12-26</span>
+                    </li>
+                    <li>
+                        <a href="">[中心新闻]</a>
+                        <a href="" class="center">圣诞平安节我们这样过，你呢</a>
+                        <span class="right">2016-12-26</span>
+                    </li>
+                    <li>
+                        <a href="">[中心新闻]</a>
+                        <a href="" class="center">圣诞平安节我们这样过圣诞平安节我们这样过圣诞平安节我们这样过，你呢</a>
+                        <span class="right">2016-12-26</span>
+                    </li>
+                    <li>
+                        <a href="">[中心新闻]</a>
+                        <a href="" class="center">圣诞平安节我们这样过，你呢</a>
+                        <span class="right">2016-12-26</span>
+                    </li>
+                    <li>
+                        <a href="">[中心新闻]</a>
+                        <a href="" class="center">圣诞平安节我们这样过，你呢</a>
+                        <span class="right">2016-12-26</span>
+                    </li>
+                    <li>
+                        <a href="">[中心新闻]</a>
+                        <a href="" class="center">圣诞平安节我们这样过，你呢</a>
+                        <span class="right">2016-12-26</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="right">
+                <h2>
+                    <small>中心动态</small>
+                    <a href="">查看更多&gt;&gt;</a>
+                </h2>
+                <ul>
+                    <li>
+                        <p class="news_h">中心新闻-行业动态-就业喜报</p>
+                        <p>
+                            <img src="../img/img02.png" alt="" class="img">
+                            <em class="h1">欢乐24周年，这个冬天，我们来约个惠吧！</em>
+                            <span>
+                                24年，江苏万和风雨兼程，感恩有你！即日起至2016年12月31日起，万和感恩回馈精彩来袭，2016年最后一次哦！
+                                绝对是你不容错过的感恩盛会！
+                            </span>
+                            <a href="">查看详情</a>
+                        </p>
+                    </li>
+                    <li>
+                        <a href="">[中心新闻]</a>
+                        <a href="" class="center">圣诞平安节我们这样过，你呢</a>
+                        <span class="right">2016-12-26</span>
+                    </li>
+                    <li>
+                        <a href="">[中心新闻]</a>
+                        <a href="" class="center">圣诞平安节我们这样过，你呢</a>
+                        <span class="right">2016-12-26</span>
+                    </li>
+                    <li>
+                        <a href="">[中心新闻]</a>
+                        <a href="" class="center">圣诞平安节我们这样过圣诞平安节我们这样过圣诞平安节我们这样过，你呢</a>
+                        <span class="right">2016-12-26</span>
+                    </li>
+                    <li>
+                        <a href="">[中心新闻]</a>
+                        <a href="" class="center">圣诞平安节我们这样过，你呢</a>
+                        <span class="right">2016-12-26</span>
+                    </li>
+                    <li>
+                        <a href="">[中心新闻]</a>
+                        <a href="" class="center">圣诞平安节我们这样过，你呢</a>
+                        <span class="right">2016-12-26</span>
+                    </li>
+                    <li>
+                        <a href="">[中心新闻]</a>
+                        <a href="" class="center">圣诞平安节我们这样过，你呢</a>
+                        <span class="right">2016-12-26</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!--选择我们-->
+<div class="ui_choose" id="ui_choose">
+    <div id="ui_choose_bg"></div>
+    <h1>
+        选择我们
+    </h1>
+    <p class="title pa_20">
+        您的<span>职业前景</span>，完全可以预见
+    </p>
+    <div class="item_01 container">
+        <div class="row">
+            <div class="col-md-4">
+                <p>
+                    设计入学门槛较低，其所见即所得，在“互联网+”与O2O模式的大趋势下，使之前景广阔超乎想象
+                </p>
+            </div>
+            <div class="col-md-4">
+                <p>
+                    行业内人才供不应求，设计人才缺口高达上千万，使平均薪资水涨船高，最高的可达月薪
+                </p>
+            </div>
+            <div class="col-md-4">
+                <p>
+                    选择我们，将您打造成超有逼格的UI设计师，领略前所未有的高薪体验
+                </p>
+            </div>
+        </div>
+    </div>
+    <p class="title pa_20">
+        UI设计培训完，<span>三大热门方向</span>你都将游刃有余
+    </p>
+    <div class="item_02 container">
+        <div class="row">
+            <div class="col-md-4">
+                <p>
+                    <img src="../img/ui_choose_icon01.png" alt="">
+                    <b>移动ui/ue设计师</b>
+                    <span>典型就业:</span>
+                    <span>移动互联网公司、游戏公司、电商公司</span>
+                    <span>核心技能：</span>
+                    <span>ios/Andoroid APP设计、移动微站设计</span>
+                    <span>可穿戴设备UI</span>
+                </p>
+            </div>
+            <div class="col-md-4">
+                <p>
+                    <img src="../img/ui_choose_icon02.png" alt="">
+                    <b>网页设计师</b>
+                    <span>典型就业:</span>
+                    <span>网站设计公司、互联网电商</span>
+                    <span>核心技能：</span>
+                    <span>WEB页面设计、网站视觉规划、HTML5</span>
+                </p>
+            </div>
+            <div class="col-md-4">
+                <p>
+                    <img src="../img/ui_choose_icon03.png" alt="">
+                    <b>平面设计师</b>
+                    <span>典型就业:</span>
+                    <span>广告公司、传媒企业</span>
+                    <span>核心技能：</span>
+                    <span>图形图像处理、商业创意设计、艺术设计</span>
+                </p>
+            </div>
+        </div>
+    </div>
+    <p class="title mod_none">
+        为什么选择<span>我们更“靠谱”</span>你都将游刃有余
+    </p>
+    <div class="char">
+        <p class="left">
+            <img src="../img/ui_photo.png" alt="">
+            <span>
+                <em></em>
+                我们是Adobe官方认证机构，培训更靠谱
+            </span>
+        </p>
+        <p class="right">
+            <img src="../img/ui_photo.png" alt="">
+            <span>
+                <em></em>
+                零首付入学，培训后付款
+            </span>
+        </p>
+        <p class="left">
+            <img src="../img/ui_photo.png" alt="">
+            <span>
+                <em></em>
+                万和全苹果机iMac授课，鼓楼市中心，交通便利
+            </span>
+        </p>
+        <p class="right">
+            <img src="../img/ui_photo.png" alt="">
+            <span class="lin2">
+                <em></em>
+                星光闪耀的师资团队，平均10年以上一线行业工作经验，海量项目实战与饱满教学，平均授课时间超过8000课时。
+            </span>
+        </p>
+        <p class="left">
+            <img src="../img/ui_photo.png" alt="">
+            <span class="lin2">
+                <em></em>
+                全国就业网络，就业指导中心与2000家企业建立人才合作关系，免费为学员提供就业服务
+            </span>
+        </p>
+    </div>
+    <p class="title pa_20">
+        <span>我们的环境</span>是这样子的
+    </p>
+    <p class="subtitle">
+        来江苏万和，感受青春的活力和梦想
+    </p>
+    <div class="container img_list">
+        <div class="row">
+            <div class="col-md-4 col-xs-6">
+                <img src="../img/ui_choose_img1.png" alt="">
+            </div>
+            <div class="col-md-4 col-xs-6">
+                <img src="../img/ui_choose_img2.png" alt="">
+            </div>
+            <div class="col-md-4 col-xs-6">
+                <img src="../img/ui_choose_img3.png" alt="">
+            </div>
+            <div class="col-md-4 col-xs-6">
+                <img src="../img/ui_choose_img4.png" alt="">
+            </div>
+            <div class="col-md-4 col-xs-6">
+                <img src="../img/ui_choose_img5.png" alt="">
+            </div>
+            <div class="col-md-4 col-xs-6">
+                <img src="../img/ui_choose_img6.png" alt="">
+            </div>
+        </div>
+    </div>
+    <p class="btm">
+        <a href="">点击报名学习</a>
+    </p>
+    <p class="title">
+        <span>您的担忧，我们都可以解决</span>
+    </p>
+    <div class="container worry">
+        <div class="row">
+            <div class="col-md-3 col-xs-6 worry-item-1">
+               <p>
+                   <img src="../img/worry_01.png" alt="">
+                   <span>毫无疑问，学历高基础起步就高，但是通过后天的加倍努力，即使低学历，你也一样可以高薪。这就是我们一直在做的，并且做的很好。</span>
+                   <b></b>
+               </p>
+            </div>
+            <div class="col-md-3 col-xs-6 worry-item-2">
+                <p>
+                    <img src="../img/worry_02.png" alt="">
+                    <span>UI设计课程非常系统全面，从软件操作、理论知识、实战练习、就业指导等方面设置都很科学完善，只要跟着老师的节奏，零基础学员也不会有任何影响。</span>
+                </p>
+            </div>
+            <div class="col-md-3 col-xs-6 worry-item-3">
+                <p>
+                    <img src="../img/worry_03.png" alt="">
+                    <span>无论你是刚毕业的大学生、基层的劳动力，还是寻求转型的门外汉、职场精英，都可以，课程设置层次清晰，技术更新迅速，总能帮你找到适合自己的定位。</span>
+                </p>
+            </div>
+            <div class="col-md-3 col-xs-6 worry-item-4">
+                <p>
+                    <img src="../img/worry_04.png" alt="">
+                    <span>为时四个半月的学习，你可以零首付入学，先就业后付款。早报早get，不要看着钱白白流走，迟迟不行动哟！</span>
+                </p>
+            </div>
+        </div>
+    </div>
+    <p class="btm" style="padding-top: 0">
+        <a href="">还有问题点我咨询</a>
+    </p>
+</div>
+<!--版权尾部-->
+<div class="footer container-fluid">
+    <div class="con container">
+        <div class="row">
+            <div class="left col-md-5 col-sm-12">
+                <h2 class="m_f_one">
+                    <span>报名方式</span>
+                    <img src="../img/jia.png" class="jia hidd">
+                </h2>
+                <ul class="m_foot_one">
+                    <li>
+                        <span class="name">联系电话:</span>
+                        <span class="value">025-68592555</span>
+                        <span class="value">400-110-1100</span>
+                    </li>
+                    <li>
+                        <span class="name">微信公众号:</span>
+                        <span class="value">wanho1993</span>
+                    </li>
+                    <li>
+                        <p>通过扫描二维码关注报名，根据顺序安排位置</p>
+                    </li>
+                </ul>
+                <div class="hig"></div>
+            </div>
+            <div class="right col-md-5 col-sm-12">
+                <h2 class="m_f_two"><span>上课地址</span>
+                    <img src="../img/jia.png" class="jia inline-top">
+                </h2>
+                <ul class="m_foot_two">
+                    <li>
+                        <span class="name">上课地址：</span>
+                        <span class="value">南京市中山北路26号新晨国际大厦23、24层</span>
+                    </li>
+                    <li>
+                        <span class="name">交通信息：</span>
+                        <span class="value">地铁一号线鼓楼站4A出口</span>
+                    </li>
+                    <li>
+                        <p>如有不清楚的地方请拨打我们的客户热线</p>
+                    </li>
+                </ul>
+                <div class="hig"></div>
+            </div>
+            <div class="col-md-2 ewm">
+                <img src="../img/ewm.png" alt="">
+                <span>万和微信公众号</span>
+            </div>
+        </div>
+        <dl class="friend col-md-10">
+            <dt class="inline">友情链接
+                <img src="../img/jia.png" class="jia hidd">
+                <span class="hidee">:</span>
+            </dt>
+            <dd class="first">华为认证培训</dd>
+            <dd>西安北大青鸟</dd>
+            <dd>嘉为IT培训</dd>
+            <dd>Java1234</dd>
+            <dd>鸿鹄论坛</dd>
+            <dd>华清安卓开发培训</dd>
+            <dd>CCNA</dd>
+            <dd>南京Java培训</dd>
+            <dd>Java开发学习</dd>
+            <dd>潍坊雅思培训</dd>
+            <dd>中国成人教育</dd>
+            <dd>华为</dd>
+            <dd>Oracle</dd>
+            <dd>Redhat</dd>
+            <dd>java开发培训</dd>
+            <div class="hig"></div>
+        </dl>
+
+    </div>
+    <div class="mobile_ewm col-xs-12">
+        <strong class="m_ewm">二维码 <img src="../img/jia.png" class="jia"></strong>
+        <img src="../img/ewm.png" alt="" class="patop">
+        <span>万和微信公众号</span>
+    </div>
+    <div class="address">
+        江苏万和计算机培训中心&copy;版权所有 苏ICP备11034309号-1
+    </div>
+</div>
+<div class="ui_moblie">
+    <div class="ui_phone_bg">
+        <h1 class="ui_phone_header">
+            <b class="um_h1"></b>
+            <img src="../img/ui_close.png" alt="close" class="close">
+        </h1>
+    </div>
+    <h2>美学基础</h2>
+    <p class="esthetics">
+
+    </p>
+    <h2>软件基础</h2>
+    <p class="software">
+
+    </p>
+</div>
+</body>
+<script>
+    function SS(a,b) {
+        var myTeacher = new Swiper ('.swiper-container-teacher', {
+            autoplay: 5000,
+            prevButton:'.swiper-button-prev-teach',
+            nextButton:'.swiper-button-next-teach',
+            paginationClickable :true,
+            loop : true,
+            slidesPerView : a,
+        });
+        var myEvaluate = new Swiper ('.swiper-container-evaluate', {
+            autoplay: 5000,
+            prevButton:'.swiper-button-prev-e',
+            paginationClickable :true,
+            nextButton:'.swiper-button-next-e',
+            loop : true,
+            slidesPerView : b,
+        });
+    }
+    (function () {
+        var width=$('body').width();
+        if(width<996 && width>760){
+            SS(3,2)
+        }else if(width>996) {
+            SS(4,3)
+        }else {
+            SS(2,1)
+        }
+    })();
+    $(window).resize(function () {
+        var width=$('body').width();
+        if(width<996 && width>760){
+            SS(3,2)
+        }else if(width>996) {
+            SS(4,3)
+        }else {
+            SS(2,1)
+        }
+    })
+</script>
+<script>
+    ~function () {
+        var oMobile_show=document.querySelectorAll('.mobile_show');
+        var arr=
+            [
+                {um_h1:'设计基础课程',software:['Cuttman','Axure rp','PS PLAY','Photoshot','Illustrator',
+                    'Aftereffect', 'Dreamweaver', 'powerponit'],esthetics:['素描','色彩','平面构成','色彩构成']},
+                {um_h1:'平面基础课程',software:['Cuttman','Axure rp','PS PLAY','Photoshot','Illustrator',
+                    'Aftereffect', 'Dreamweaver', 'powerponit'],esthetics:['素描','色彩','平面构成','色彩构成']},
+                {um_h1:'WEB网页课程',software:['Cuttman','Axure rp','PS PLAY','Photoshot','Illustrator',
+                    'Aftereffect', 'Dreamweaver', 'powerponit'],esthetics:['素描','色彩','平面构成','色彩构成']},
+                {um_h1:'APP设计课程',software:['Cuttman','Axure rp','PS PLAY','Photoshot','Illustrator',
+                    'Aftereffect', 'Dreamweaver', 'powerponit'],esthetics:['素描','色彩','平面构成','色彩构成']}
+            ];
+        var oClose=document.querySelector('.close');
+        for(var i=0;i<oMobile_show.length;i++){
+            oMobile_show[i].setAttribute('index',i);
+            ~function(element){
+                var startTx, startTy;
+                element.addEventListener('touchstart',function(e){
+                    e.preventDefault();
+                    var touches = e.touches[0];
+                    startTx = touches.clientX;
+                    startTy = touches.clientY;
+                }, false );
+
+                element.addEventListener('touchend',function(e){
+                    var touches = e.changedTouches[0],
+                        endTx = touches.clientX,
+                        endTy = touches.clientY;
+                    if( Math.abs(startTx - endTx) < 6 && Math.abs(startTy - endTy) < 6 ){
+                        var x=this.getAttribute('index');
+                        document.querySelector(".um_h1").innerHTML=arr[x].um_h1;
+                        var alen=arr[x].software,blen=arr[x].esthetics;
+                        var shtml=[],ehtml=[];
+                        for(var j=0;j<alen.length;j++){
+                            shtml.push('<span>'+ alen[j] +'</span>');
+                        }
+                        for(var k=0;k<blen.length;k++){
+                            ehtml.push('<span>'+ blen[k] +'</span>');
+                        }
+                        document.querySelector(".software").innerHTML=shtml.join('');
+                        document.querySelector(".esthetics").innerHTML=ehtml.join('');
+                        document.querySelector('.ui_moblie').className+=' ui_show';
+                    }
+                }, false );
+            }(oMobile_show[i]);
+        }
+        touchEvent.tap(oClose,function () {
+            document.querySelector('.ui_moblie').className='ui_moblie';
+        })
+    }()
+</script>
+</html>
